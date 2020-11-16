@@ -30,11 +30,11 @@ For more details visit : https://naturalcapitalproject.stanford.edu/software/inv
 3. **ref/** --> This directory contains the reference papers used in calculation of the paramters for the different paramteric tables used by the many InVEST models.
 4. **Tutorials/** --> This directory contains technical know-how and guides to efficiently using GIS software (read ArcGIS Pro).
 5. **InVEST_process/** --> This folder contains a district-wise list of lakes subdirectories that contain the local GIS datat used to generate and run the InVEST models. The models that the datta is fit to run are:
-  1. **Carbon Model**
-  2. **Carbon Forest Edge Effect**
-  3. **Annual Water Yield**
-  4. **Sediment Delivery Ratio**
-  5. **Recreation**
-  6. **Scenic Quality**
+     1. **Carbon Model**
+     2. **Carbon Forest Edge Effect**
+     3. **Annual Water Yield**
+     4. **Sediment Delivery Ratio**
+     5. **Recreation**
+     6. **Scenic Quality**
   
 For global GIS data used in the InVEST models please go to https://www.kaggle.com/rakshitmittal/jharkhand-gis-data-for-invest
