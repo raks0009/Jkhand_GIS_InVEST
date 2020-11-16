@@ -1,0 +1,116 @@
+2020-08-22 01:22:39,622 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\scenic_quality_workspace\InVEST-Scenic-Quality-log-2020-08-22--01_22_39.txt
+2020-08-22 01:22:39,624 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.scenic_quality.scenic_quality 3.8.7:
+a_coef               1
+aoi_path             D:/Work/GIS Wetland/InVEST_process/Garhwa/Garhwa 8_Panghatwa/aoi.shp
+b_coef               0
+dem_path             D:/Work/GIS Wetland/InVEST_process/Garhwa/Garhwa 8_Panghatwa/dem_aoi.tif
+do_valuation         True
+max_valuation_radius 8000
+n_workers            -1
+refraction           0.13
+results_suffix       
+structure_path       D:/Work/GIS Wetland/InVEST_process/Garhwa/Garhwa 8_Panghatwa/obstructions_aoi.shp
+valuation_function   linear: a + bx
+workspace_dir        C:\Users\RAKSHIT\Documents\scenic_quality_workspace
+
+2020-08-22 01:22:39,638 scenic_quality.execute(207) INFO Starting Scenic Quality Model
+2020-08-22 01:22:39,700 scenic_quality.execute(240) INFO Building file registry
+2020-08-22 01:22:39,777 geoprocessing.reproject_vector(1640) INFO starting reprojection
+2020-08-22 01:22:39,778 geoprocessing.reproject_vector(1683) INFO reprojection 100.0% complete on aoi_reprojected.shp
+2020-08-22 01:22:39,846 geoprocessing.reproject_vector(1640) INFO starting reprojection
+2020-08-22 01:22:39,860 geoprocessing.reproject_vector(1683) INFO reprojection 100.0% complete on structures_reprojected.shp
+2020-08-22 01:22:39,979 scenic_quality._clip_and_mask_dem(833) INFO Clipping the DEM to its intersection with the AOI.
+2020-08-22 01:22:40,020 scenic_quality._clip_and_mask_dem(851) INFO Masking DEM pixels outside the AOI to nodata
+2020-08-22 01:22:40,078 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:22:40,079 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-32, started daemon 1452)>
+2020-08-22 01:22:40,089 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:22:40,089 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:22:40,089 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:22:40,090 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:22:40,117 scenic_quality.execute(294) INFO Waiting for clipping to finish
+2020-08-22 01:22:40,122 scenic_quality._determine_valid_viewpoints(465) INFO Layer structures_clipped has 11 features
+2020-08-22 01:22:40,177 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_4084aqgtki\auxiliary.tif
+2020-08-22 01:22:40,187 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_0.tif
+2020-08-22 01:22:40,195 Task._call(1174) INFO Starting viewshed for viewpoint (9298319.6681, 2750794.5003999993) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:40,201 Task._call(1174) INFO 100.00% complete after 0.03s
+2020-08-22 01:22:40,249 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:40,314 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_40cd_tmfxt\auxiliary.tif
+2020-08-22 01:22:40,319 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_1.tif
+2020-08-22 01:22:40,328 Task._call(1174) INFO Starting viewshed for viewpoint (9298328.998599999, 2750724.9122) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:40,335 Task._call(1174) INFO 100.00% complete after 0.02s
+2020-08-22 01:22:40,382 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:40,422 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_4093tao2yj\auxiliary.tif
+2020-08-22 01:22:40,427 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_2.tif
+2020-08-22 01:22:40,436 Task._call(1174) INFO Starting viewshed for viewpoint (9298869.701699998, 2750550.7872) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:40,441 Task._call(1174) INFO 100.00% complete after 0.02s
+2020-08-22 01:22:40,476 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:40,517 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_4052r8gj9m\auxiliary.tif
+2020-08-22 01:22:40,523 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_3.tif
+2020-08-22 01:22:40,532 Task._call(1174) INFO Starting viewshed for viewpoint (9299626.474100001, 2750793.4855999984) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:40,538 Task._call(1174) INFO 100.00% complete after 0.02s
+2020-08-22 01:22:40,574 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:40,615 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_40qmllf77v\auxiliary.tif
+2020-08-22 01:22:40,622 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_4.tif
+2020-08-22 01:22:40,637 Task._call(1174) INFO Starting viewshed for viewpoint (9299627.689, 2750820.0643999986) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:40,644 Task._call(1174) INFO 100.00% complete after 0.03s
+2020-08-22 01:22:40,691 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:40,740 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_40prd6g_0x\auxiliary.tif
+2020-08-22 01:22:40,746 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_5.tif
+2020-08-22 01:22:40,758 Task._call(1174) INFO Starting viewshed for viewpoint (9299690.8644, 2750770.531100001) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:40,764 Task._call(1174) INFO 100.00% complete after 0.03s
+2020-08-22 01:22:40,796 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:40,837 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_40fjym80m8\auxiliary.tif
+2020-08-22 01:22:40,842 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_6.tif
+2020-08-22 01:22:40,852 Task._call(1174) INFO Starting viewshed for viewpoint (9299705.443300001, 2750789.861200001) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:40,857 Task._call(1174) INFO 100.00% complete after 0.02s
+2020-08-22 01:22:40,883 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:40,921 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_40mwsep3tu\auxiliary.tif
+2020-08-22 01:22:40,926 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_7.tif
+2020-08-22 01:22:40,937 Task._call(1174) INFO Starting viewshed for viewpoint (9299751.609900001, 2750753.6173) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:40,944 Task._call(1174) INFO 100.00% complete after 0.03s
+2020-08-22 01:22:40,979 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:41,018 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_41qcr8xb05\auxiliary.tif
+2020-08-22 01:22:41,024 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_8.tif
+2020-08-22 01:22:41,034 Task._call(1174) INFO Starting viewshed for viewpoint (9299783.197500002, 2750852.6838000007) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:41,040 Task._call(1174) INFO 100.00% complete after 0.03s
+2020-08-22 01:22:41,075 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:41,116 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_41kj58sdad\auxiliary.tif
+2020-08-22 01:22:41,122 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_9.tif
+2020-08-22 01:22:41,130 Task._call(1174) INFO Starting viewshed for viewpoint (9299825.7194, 2750823.6887999997) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:41,136 Task._call(1174) INFO 100.00% complete after 0.02s
+2020-08-22 01:22:41,163 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:41,199 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_19_52_41_y92rf2j\auxiliary.tif
+2020-08-22 01:22:41,205 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_10.tif
+2020-08-22 01:22:41,214 Task._call(1174) INFO Starting viewshed for viewpoint (9299880.3904, 2750811.607500002) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-22 01:22:41,219 Task._call(1174) INFO 100.00% complete after 0.02s
+2020-08-22 01:22:41,246 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-22 01:22:41,281 scenic_quality._count_and_weight_visible_structures(895) INFO Summing and weighting 11 visibility rasters
+2020-08-22 01:22:41,360 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:22:41,361 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-33, started daemon 12476)>
+2020-08-22 01:22:41,381 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:22:41,382 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:22:41,382 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:22:41,382 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:22:41,413 scenic_quality._calculate_visual_quality(981) INFO Calculating visual quality
+2020-08-22 01:22:41,416 scenic_quality._calculate_visual_quality(991) INFO Determining percentiles for vshed_value.tif
+2020-08-22 01:22:41,421 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:22:41,422 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-34, started daemon 12296)>
+2020-08-22 01:22:41,427 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:22:41,427 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:22:41,427 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:22:41,427 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:22:41,441 scenic_quality._calculate_visual_quality(1011) WARNING couldn't make working_sort_directory: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\RAKSHIT\\Documents\\scenic_quality_workspace\\intermediate\\visual_quality5b51p4pl'
+2020-08-22 01:22:41,445 scenic_quality._calculate_visual_quality(1011) DEBUG sorting data to heap
+2020-08-22 01:22:41,454 scenic_quality._calculate_visual_quality(1011) DEBUG calculating percentiles
+2020-08-22 01:22:41,455 scenic_quality._calculate_visual_quality(1011) DEBUG here is percentile_list: [1.0, 8.0, 10.0, 11.0]
+2020-08-22 01:22:41,455 scenic_quality._calculate_visual_quality(1017) INFO Mapping percentile breaks [ 1.  8. 10. 11.]
+2020-08-22 01:22:41,461 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:22:41,462 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-35, started daemon 10856)>
+2020-08-22 01:22:41,467 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:22:41,467 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:22:41,467 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:22:41,468 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:22:41,491 scenic_quality.execute(405) INFO Waiting for Scenic Quality tasks to complete.
+2020-08-22 01:22:41,492 model._logged_target(1638) INFO Execution finished
+2020-08-22 01:22:41,493 utils.prepare_workspace(117) INFO Elapsed time: 1.87s

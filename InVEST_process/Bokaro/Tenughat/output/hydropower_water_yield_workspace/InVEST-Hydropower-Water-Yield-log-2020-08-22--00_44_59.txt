@@ -1,0 +1,234 @@
+2020-08-22 00:44:59,133 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\hydropower_water_yield_workspace\InVEST-Hydropower-Water-Yield-log-2020-08-22--00_44_59.txt
+2020-08-22 00:44:59,136 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.hydropower.hydropower_water_yield 3.8.7:
+biophysical_table_path        D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_AWY_BPTable.csv
+demand_table_path             D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_AWY_Demand.csv
+depth_to_root_rest_layer_path D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/rootdepth_aoi.tif
+do_scarcity_and_valuation     True
+eto_path                      D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/annual_et0_aoi.tif
+lulc_path                     D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/lulc_aoi.tif
+n_workers                     -1
+pawc_path                     D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/pawf_aoi.tif
+precipitation_path            D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/annual_precipn_aoi.tif
+results_suffix                
+seasonality_constant          5
+sub_watersheds_path           
+valuation_table_path          
+watersheds_path               D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/watersheds_aoi.shp
+workspace_dir                 C:\Users\RAKSHIT\Documents\hydropower_water_yield_workspace
+
+2020-08-22 00:44:59,157 hydropower_water_yield.execute(269) INFO Validating arguments
+2020-08-22 00:44:59,168 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-22 00:44:59,169 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-22 00:44:59,278 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-22 00:44:59,412 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 5 aligned: eto.tif
+2020-08-22 00:44:59,428 geoprocessing.align_and_resize_raster_stack(752) INFO 2 of 5 aligned: precip.tif
+2020-08-22 00:44:59,445 geoprocessing.align_and_resize_raster_stack(752) INFO 3 of 5 aligned: depth_to_root_rest_layer.tif
+2020-08-22 00:44:59,459 geoprocessing.align_and_resize_raster_stack(752) INFO 4 of 5 aligned: pawc.tif
+2020-08-22 00:44:59,472 geoprocessing.align_and_resize_raster_stack(752) INFO 5 of 5 aligned: clipped_lulc.tif
+2020-08-22 00:44:59,473 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 5 rasters.
+2020-08-22 00:44:59,508 hydropower_water_yield.execute(404) DEBUG bio_lucodes {0.0, 130, 11, 140, 14, 20, 150, 30, 160, 40, 170, 50, 180, 60, 190, 70, 200, 210, 90, 220, 100, 230, 110, 120}
+2020-08-22 00:44:59,515 hydropower_water_yield.execute(414) DEBUG demand_lucodes {0.0, 130, 11, 140, 14, 20, 150, 30, 160, 40, 170, 50, 180, 60, 190, 70, 200, 210, 90, 220, 100, 230, 110, 120}
+2020-08-22 00:44:59,516 hydropower_water_yield._check_missing_lucodes(904) INFO Checking that input tables have landcover codes for every value in the landcover map.
+2020-08-22 00:44:59,531 hydropower_water_yield.execute(458) INFO Reclassifying temp_Kc raster
+2020-08-22 00:44:59,539 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:44:59,540 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-29, started daemon 2696)>
+2020-08-22 00:44:59,542 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:44:59,543 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:44:59,543 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:44:59,543 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:44:59,565 hydropower_water_yield.execute(470) INFO Reclassifying tmp_root raster
+2020-08-22 00:44:59,573 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:44:59,575 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-30, started daemon 2732)>
+2020-08-22 00:44:59,577 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:44:59,578 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:44:59,578 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:44:59,578 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:44:59,600 hydropower_water_yield.execute(484) INFO Reclassifying tmp_veg raster
+2020-08-22 00:44:59,609 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:44:59,610 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-31, started daemon 7100)>
+2020-08-22 00:44:59,612 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:44:59,612 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:44:59,613 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:44:59,613 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:44:59,635 hydropower_water_yield.execute(497) INFO Calculate PET from Ref Evap times Kc
+2020-08-22 00:44:59,645 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:44:59,646 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-32, started daemon 2516)>
+2020-08-22 00:44:59,649 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:44:59,649 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:44:59,650 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:44:59,650 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:44:59,676 hydropower_water_yield.execute(515) DEBUG Performing fractp operation
+2020-08-22 00:44:59,700 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:44:59,701 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-33, started daemon 13048)>
+2020-08-22 00:44:59,707 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:44:59,708 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:44:59,708 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:44:59,708 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:44:59,731 hydropower_water_yield.execute(528) INFO Performing wyield operation
+2020-08-22 00:44:59,741 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:44:59,743 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-34, started daemon 14176)>
+2020-08-22 00:44:59,745 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:44:59,746 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:44:59,747 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:44:59,747 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:44:59,769 hydropower_water_yield.execute(541) DEBUG Performing aet operation
+2020-08-22 00:44:59,779 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:44:59,780 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-35, started daemon 3792)>
+2020-08-22 00:44:59,782 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:44:59,782 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:44:59,783 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:44:59,783 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:44:59,814 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:44:59,815 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-36, started daemon 9180)>
+2020-08-22 00:44:59,817 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:44:59,817 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:44:59,818 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:44:59,817 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:44:59,844 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x10D7D998> >
+2020-08-22 00:44:59,881 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_raster91cf16jn.tif
+2020-08-22 00:44:59,882 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-22 00:44:59,903 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-22 00:44:59,904 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-22 00:44:59,904 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-22 00:44:59,928 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-22 00:44:59,929 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:44:59,929 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-22 00:44:59,933 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:44:59,933 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:44:59,951 geoprocessing.zonal_statistics(1219) INFO processing 4 disjoint polygon sets
+2020-08-22 00:44:59,951 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:44:59,952 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:44:59,957 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:44:59,959 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:44:59,959 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:44:59,962 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:44:59,963 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:44:59,963 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:44:59,965 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:44:59,966 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 4 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:44:59,966 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:44:59,967 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:44:59,968 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-22 00:44:59,970 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5447140e+06  4.6622726e+02  0.0000000e+00  2.7088190e+06
+  0.0000000e+00 -4.5389456e+02] for ('C:\\Users\\RAKSHIT\\Documents\\hydropower_water_yield_workspace\\intermediate\\precip.tif', 1)
+2020-08-22 00:44:59,971 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-22 00:44:59,971 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watersheds_aoi.shp
+2020-08-22 00:45:00,001 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x10C6FFE0> >
+2020-08-22 00:45:00,041 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_raster16j3184d.tif
+2020-08-22 00:45:00,041 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-22 00:45:00,062 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-22 00:45:00,063 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-22 00:45:00,064 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-22 00:45:00,085 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-22 00:45:00,086 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,086 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-22 00:45:00,091 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,091 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,104 geoprocessing.zonal_statistics(1219) INFO processing 4 disjoint polygon sets
+2020-08-22 00:45:00,105 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,105 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,111 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,113 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,113 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,115 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,116 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,116 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,118 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,118 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 4 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,119 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,120 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,121 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-22 00:45:00,125 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5447140e+06  4.6622726e+02  0.0000000e+00  2.7088190e+06
+  0.0000000e+00 -4.5389456e+02] for ('C:\\Users\\RAKSHIT\\Documents\\hydropower_water_yield_workspace\\intermediate\\pet.tif', 1)
+2020-08-22 00:45:00,126 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-22 00:45:00,127 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watersheds_aoi.shp
+2020-08-22 00:45:00,185 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x10C6FEF0> >
+2020-08-22 00:45:00,238 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rastercqt_h9v5.tif
+2020-08-22 00:45:00,238 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-22 00:45:00,264 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-22 00:45:00,264 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-22 00:45:00,265 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-22 00:45:00,294 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-22 00:45:00,296 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,297 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-22 00:45:00,302 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,302 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,314 geoprocessing.zonal_statistics(1219) INFO processing 4 disjoint polygon sets
+2020-08-22 00:45:00,315 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,316 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,323 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,326 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,327 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,328 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,330 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,331 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,333 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,335 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 4 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,336 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,338 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,339 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-22 00:45:00,343 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5447140e+06  4.6622726e+02  0.0000000e+00  2.7088190e+06
+  0.0000000e+00 -4.5389456e+02] for ('C:\\Users\\RAKSHIT\\Documents\\hydropower_water_yield_workspace\\output\\per_pixel\\aet.tif', 1)
+2020-08-22 00:45:00,344 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-22 00:45:00,344 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watersheds_aoi.shp
+2020-08-22 00:45:00,375 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x10D7D740> >
+2020-08-22 00:45:00,419 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rastermoxpgdtr.tif
+2020-08-22 00:45:00,420 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-22 00:45:00,443 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-22 00:45:00,444 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-22 00:45:00,444 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-22 00:45:00,466 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-22 00:45:00,467 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,467 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-22 00:45:00,470 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,471 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,483 geoprocessing.zonal_statistics(1219) INFO processing 4 disjoint polygon sets
+2020-08-22 00:45:00,484 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,484 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,489 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,493 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,493 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,495 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,496 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,496 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,498 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,499 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 4 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,499 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,500 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,501 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-22 00:45:00,504 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5447140e+06  4.6622726e+02  0.0000000e+00  2.7088190e+06
+  0.0000000e+00 -4.5389456e+02] for ('C:\\Users\\RAKSHIT\\Documents\\hydropower_water_yield_workspace\\output\\per_pixel\\wyield.tif', 1)
+2020-08-22 00:45:00,504 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-22 00:45:00,504 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watersheds_aoi.shp
+2020-08-22 00:45:00,532 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x10D7D620> >
+2020-08-22 00:45:00,570 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_raster04lahgbl.tif
+2020-08-22 00:45:00,571 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-22 00:45:00,592 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-22 00:45:00,593 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-22 00:45:00,594 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-22 00:45:00,615 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-22 00:45:00,617 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,617 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-22 00:45:00,620 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,620 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watersheds_aoi.shp
+2020-08-22 00:45:00,633 geoprocessing.zonal_statistics(1219) INFO processing 4 disjoint polygon sets
+2020-08-22 00:45:00,634 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,635 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,639 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,643 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,643 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,645 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,646 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,646 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,648 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,649 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 4 of 4 100.0% processed on watersheds_aoi.shp
+2020-08-22 00:45:00,649 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,651 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 4 of 4 watersheds_aoi.shp
+2020-08-22 00:45:00,652 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-22 00:45:00,654 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5447140e+06  4.6622726e+02  0.0000000e+00  2.7088190e+06
+  0.0000000e+00 -4.5389456e+02] for ('C:\\Users\\RAKSHIT\\Documents\\hydropower_water_yield_workspace\\intermediate\\demand.tif', 1)
+2020-08-22 00:45:00,655 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-22 00:45:00,655 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watersheds_aoi.shp
+2020-08-22 00:45:01,066 model._logged_target(1638) INFO Execution finished
+2020-08-22 00:45:01,067 utils.prepare_workspace(117) INFO Elapsed time: 1.93s

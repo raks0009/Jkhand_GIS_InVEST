@@ -1,0 +1,1111 @@
+2020-08-21 00:46:57,906 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\sdr_workspace\InVEST-Sediment-Delivery-Ratio-Model-(SDR)-log-2020-08-21--00_46_57.txt
+2020-08-21 00:46:57,909 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.sdr.sdr 3.8.7:
+biophysical_table_path      D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv
+dem_path                    D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif
+drainage_path               
+erodibility_path            D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif
+erosivity_path              D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif
+ic_0_param                  0.5
+k_param                     2
+lulc_path                   D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif
+n_workers                   -1
+results_suffix              
+sdr_max                     0.8
+threshold_flow_accumulation 400
+watersheds_path             D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp
+workspace_dir               C:\Users\RAKSHIT\Documents\sdr_workspace
+
+2020-08-21 00:46:58,006 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:58,011 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,012 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,013 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,016 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,017 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,017 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,019 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,020 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,021 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,022 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,022 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,023 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,024 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,024 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:58,025 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,025 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:58,026 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: False
+2020-08-21 00:46:58,027 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:58,029 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:58,036 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:46:58,180 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:46:58,180 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:46:58,342 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:46:58,344 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-2, started daemon 10944)>
+2020-08-21 00:46:58,353 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:46:58,353 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:46:58,354 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:46:58,353 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:46:58,365 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 4 aligned: aligned_dem.tif
+2020-08-21 00:46:58,418 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:46:58,419 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-3, started daemon 14840)>
+2020-08-21 00:46:58,424 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:46:58,425 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:46:58,426 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:46:58,426 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:46:58,435 geoprocessing.align_and_resize_raster_stack(752) INFO 2 of 4 aligned: aligned_lulc.tif
+2020-08-21 00:46:58,456 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:58,493 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,500 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,503 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:46:58,503 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,504 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,505 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,505 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-4, started daemon 1784)>
+2020-08-21 00:46:58,506 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,515 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,517 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:46:58,517 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,518 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:46:58,518 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,519 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:46:58,519 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:46:58,519 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,531 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,532 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,533 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,534 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:58,536 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:58,536 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:46:58,537 geoprocessing.align_and_resize_raster_stack(752) INFO 3 of 4 aligned: aligned_erosivity.tif
+2020-08-21 00:46:58,617 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:46:58,620 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-5, started daemon 232)>
+2020-08-21 00:46:58,627 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:46:58,631 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:46:58,702 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:46:58,702 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:46:58,701 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:46:58,702 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:46:58,714 geoprocessing.align_and_resize_raster_stack(752) INFO 4 of 4 aligned: aligned_erodibility.tif
+2020-08-21 00:46:58,715 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 4 rasters.
+2020-08-21 00:46:58,735 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:58,735 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,736 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,736 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,737 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,737 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,738 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,739 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,739 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,740 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,740 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,741 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,742 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,743 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,744 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:58,744 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:58,745 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: [(['Threshold Flow Accumulation'], 'Input is required but has no value')]
+2020-08-21 00:46:58,746 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: False
+2020-08-21 00:46:58,747 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:58,748 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:58,749 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:46:58,881 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:46:58,881 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:46:58,966 Task._call(1174) INFO 100.0% complete
+2020-08-21 00:46:58,976 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:58,977 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,978 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,979 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,981 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,982 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,983 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,984 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,984 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,985 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:58,986 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:58,988 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:58,988 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:46:59,098 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:46:59,098 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:46:59,129 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:59,131 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,132 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,132 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,133 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,134 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,135 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,135 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,136 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,137 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,137 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,138 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,138 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,139 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,139 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:59,140 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,140 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,141 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,141 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,142 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:59,142 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: False
+2020-08-21 00:46:59,143 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:59,145 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:59,145 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:46:59,276 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:46:59,276 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:46:59,286 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:46:59,287 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-6, started daemon 9352)>
+2020-08-21 00:46:59,290 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:46:59,290 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:46:59,290 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:46:59,291 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:46:59,304 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:59,305 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,306 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,308 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,308 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,309 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,310 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,310 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,311 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,312 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,313 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,314 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:59,316 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:59,316 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:46:59,423 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:46:59,423 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:46:59,498 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:59,499 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,500 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,513 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,513 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,514 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,515 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,516 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,517 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,518 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,519 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,520 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,520 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,521 Task._call(1174) INFO 100.0% complete
+2020-08-21 00:46:59,521 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,522 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:59,523 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,524 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,524 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,524 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:59,525 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: False
+2020-08-21 00:46:59,526 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:59,528 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:59,528 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:46:59,658 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:46:59,658 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:46:59,662 Task._call(1174) INFO Calculating average aspect
+2020-08-21 00:46:59,683 Task._call(1174) INFO Average aspect 0.00% complete
+2020-08-21 00:46:59,687 Task._call(1174) INFO Average aspect 100.00% complete
+2020-08-21 00:46:59,699 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:59,699 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,700 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,701 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,701 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,702 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,702 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,703 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,704 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,705 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,706 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,707 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,708 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:59,709 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:59,710 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:46:59,841 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:46:59,842 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:46:59,845 Task._call(1174) DEBUG creating target flow accum raster layer
+2020-08-21 00:46:59,868 Task._call(1174) DEBUG creating visited raster layer
+2020-08-21 00:46:59,877 Task._call(1174) DEBUG starting search
+2020-08-21 00:46:59,904 Task._call(1174) INFO 100.0% complete
+2020-08-21 00:46:59,904 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:46:59,905 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,906 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,907 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,908 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,909 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,909 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,910 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,911 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,912 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,913 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,914 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,915 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,915 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,916 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:59,917 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,918 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:46:59,919 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:46:59,919 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: False
+2020-08-21 00:46:59,920 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:46:59,922 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:46:59,922 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:00,044 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:00,044 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:00,066 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:00,067 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-7, started daemon 3404)>
+2020-08-21 00:47:00,075 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:00,075 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:00,076 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:00,076 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,077 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:00,077 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:00,077 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,087 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,088 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,088 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,089 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,090 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,091 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,092 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,093 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,094 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,094 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,095 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:00,097 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:00,097 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:00,232 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:00,233 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:00,272 Task._call(1174) INFO filter out incomplete divergent streams
+2020-08-21 00:47:00,279 Task._call(1174) INFO 100.0% complete
+2020-08-21 00:47:00,283 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:00,284 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,285 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,285 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,286 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,287 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,288 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,289 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,289 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,290 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,291 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,292 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,293 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,294 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,294 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:00,295 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,295 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:00,296 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: False
+2020-08-21 00:47:00,297 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:00,299 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:00,299 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:00,444 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:00,444 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:00,453 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:00,454 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-8, started daemon 2548)>
+2020-08-21 00:47:00,457 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:00,457 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:00,458 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:00,458 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:00,472 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:00,473 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-9, started daemon 5060)>
+2020-08-21 00:47:00,475 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:00,476 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:00,477 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:00,476 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:00,487 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:00,488 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,488 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,489 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,489 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,490 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,490 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,491 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,492 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,493 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,494 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,495 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,495 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,496 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,498 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:00,499 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:00,499 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:00,633 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:00,634 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:00,647 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:00,648 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-10, started daemon 10492)>
+2020-08-21 00:47:00,652 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:00,652 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:00,653 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:00,653 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:00,662 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:00,663 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,664 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,664 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,665 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,666 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,666 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,667 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,667 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,668 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,669 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,669 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,670 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,671 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,672 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:00,672 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:00,673 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: [(['Threshold Flow Accumulation'], 'Input is required but has no value')]
+2020-08-21 00:47:00,673 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: False
+2020-08-21 00:47:00,674 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:00,675 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:00,675 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:00,779 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:00,779 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:00,802 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:00,803 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-11, started daemon 256)>
+2020-08-21 00:47:00,807 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:00,808 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:00,809 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:00,808 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:00,822 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:00,823 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,824 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,824 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,825 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,826 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,827 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,828 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,829 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,830 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:00,831 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:00,831 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:00,928 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:00,928 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:00,948 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:00,949 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-12, started daemon 14440)>
+2020-08-21 00:47:00,953 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:00,954 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:00,954 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:00,954 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:00,965 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:00,966 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,967 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,967 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,968 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,968 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,969 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,970 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,970 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,971 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,972 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,972 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,973 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,974 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,975 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:00,976 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,976 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,977 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,978 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,979 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:00,980 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:00,980 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: False
+2020-08-21 00:47:00,981 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:00,982 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:00,983 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:01,101 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:01,101 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:01,109 sdr._calculate_bar_factor(1076) DEBUG doing flow accumulation mfd on C:\Users\RAKSHIT\Documents\sdr_workspace\intermediate_outputs\w_threshold.tif
+2020-08-21 00:47:01,109 sdr._calculate_bar_factor(1084) DEBUG creating target flow accum raster layer
+2020-08-21 00:47:01,131 sdr._calculate_bar_factor(1084) DEBUG creating visited raster layer
+2020-08-21 00:47:01,143 sdr._calculate_bar_factor(1084) DEBUG starting search
+2020-08-21 00:47:01,167 sdr._calculate_bar_factor(1084) INFO 100.0% complete
+2020-08-21 00:47:01,174 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:01,174 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:01,175 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,176 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,177 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-13, started daemon 1268)>
+2020-08-21 00:47:01,177 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,183 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,184 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,185 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,186 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:01,186 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,187 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:01,187 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,188 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:01,188 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:01,188 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,197 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:01,199 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:01,199 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:01,305 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:01,305 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:01,318 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:01,319 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,320 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,320 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,321 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,322 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,322 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,323 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,323 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,324 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,325 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,326 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,327 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,327 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,328 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:01,329 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,330 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,331 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,332 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,332 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:01,333 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: False
+2020-08-21 00:47:01,334 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:01,336 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:01,336 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:01,368 sdr._calculate_bar_factor(1076) DEBUG doing flow accumulation mfd on C:\Users\RAKSHIT\Documents\sdr_workspace\intermediate_outputs\slope_threshold.tif
+2020-08-21 00:47:01,368 sdr._calculate_bar_factor(1084) DEBUG creating target flow accum raster layer
+2020-08-21 00:47:01,380 sdr._calculate_bar_factor(1084) DEBUG creating visited raster layer
+2020-08-21 00:47:01,444 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:01,450 sdr._calculate_bar_factor(1084) DEBUG starting search
+2020-08-21 00:47:01,446 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:01,476 sdr._calculate_bar_factor(1084) INFO 100.0% complete
+2020-08-21 00:47:01,483 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:01,485 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-14, started daemon 11224)>
+2020-08-21 00:47:01,491 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:01,491 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:01,492 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:01,492 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:01,501 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:01,502 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,503 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,503 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,504 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,504 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,505 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,505 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,506 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,507 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,507 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,508 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:01,509 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:01,509 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:01,635 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:01,636 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:01,647 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:01,647 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,648 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,649 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,649 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,650 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,650 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,651 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,651 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,652 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,653 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,653 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,654 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,655 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,655 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:01,656 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,656 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,657 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,657 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:01,658 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: False
+2020-08-21 00:47:01,658 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:01,660 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:01,660 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:01,710 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:01,758 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-15, started daemon 9200)>
+2020-08-21 00:47:01,792 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:01,796 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:01,797 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:01,797 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:01,797 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:01,797 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:01,818 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:01,819 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,820 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,820 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,821 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,821 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,822 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,823 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,824 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,824 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,825 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,825 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,826 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:01,827 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:01,827 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:01,961 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:01,961 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:01,973 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:01,974 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-16, started daemon 14656)>
+2020-08-21 00:47:01,977 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:01,978 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:01,979 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:01,978 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:01,988 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:01,988 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,989 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,990 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,991 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,992 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,993 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,993 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,994 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,994 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,995 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,996 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,997 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,998 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:01,999 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:01,999 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,000 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,001 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:02,001 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: False
+2020-08-21 00:47:02,002 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:02,003 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:02,003 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:02,093 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:02,093 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:02,133 Task._call(1174) INFO 100.0% complete
+2020-08-21 00:47:02,137 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:02,138 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,138 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,139 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,140 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,140 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,141 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,141 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,141 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,142 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,143 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,144 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,144 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,146 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:02,147 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:02,147 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:02,276 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:02,276 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:02,290 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:02,291 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-17, started daemon 13460)>
+2020-08-21 00:47:02,295 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:02,296 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:02,297 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:02,296 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:02,307 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:02,307 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,308 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,309 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,310 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,311 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,312 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,313 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,314 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,315 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,316 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,316 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,317 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,318 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,319 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:02,320 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,320 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:02,321 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: False
+2020-08-21 00:47:02,322 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:02,324 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:02,324 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:02,478 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:02,478 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:02,490 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:02,491 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-18, started daemon 4592)>
+2020-08-21 00:47:02,494 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:02,495 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:02,496 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:02,496 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:02,510 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:02,511 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,511 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,512 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,513 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,515 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,515 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,516 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,516 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,517 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,518 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,519 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,520 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,520 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,521 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:02,523 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:02,523 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:02,669 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:02,669 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:02,681 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:02,682 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-19, started daemon 14540)>
+2020-08-21 00:47:02,685 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:02,686 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:02,686 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:02,687 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:02,697 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:02,698 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,699 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,700 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,701 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,702 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,702 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,703 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,704 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,704 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,705 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,706 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,707 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,707 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,708 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:02,708 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:02,709 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: [(['Threshold Flow Accumulation'], 'Input is required but has no value')]
+2020-08-21 00:47:02,709 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: False
+2020-08-21 00:47:02,710 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:02,711 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:02,711 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:02,810 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:02,810 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:02,824 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:02,826 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-20, started daemon 10728)>
+2020-08-21 00:47:02,829 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:02,829 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:02,830 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:02,830 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:02,842 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:02,843 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,844 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,844 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,845 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,846 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,847 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,848 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:02,849 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:02,850 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:02,851 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:02,955 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:02,955 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:02,961 Task._call(1174) INFO calculate sediment deposition
+2020-08-21 00:47:02,990 Task._call(1174) INFO 0.00% complete
+2020-08-21 00:47:03,000 Task._call(1174) INFO 100% complete
+2020-08-21 00:47:03,017 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:03,018 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,019 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,020 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,021 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,022 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,022 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,023 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,024 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,025 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,026 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,026 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,027 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,028 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,029 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:03,029 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,030 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,030 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,031 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,031 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,032 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,033 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:03,034 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: False
+2020-08-21 00:47:03,034 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:03,036 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:03,036 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:03,158 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:03,158 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:03,173 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:03,174 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-21, started daemon 3508)>
+2020-08-21 00:47:03,178 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:03,179 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:03,179 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:03,179 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:03,190 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:03,190 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,191 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,192 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,193 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,194 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,195 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,196 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,196 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,197 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:03,199 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:03,199 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:03,290 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:03,290 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:03,302 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:03,303 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-22, started daemon 14872)>
+2020-08-21 00:47:03,305 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:03,306 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:03,307 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:03,306 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:03,315 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:03,316 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,317 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,318 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,319 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,319 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,320 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,321 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,322 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,322 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,323 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,324 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,324 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,325 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,326 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:03,326 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,327 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,328 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,329 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,330 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,331 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:03,332 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: False
+2020-08-21 00:47:03,333 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:03,334 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:03,335 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:03,437 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:03,437 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:03,475 Task._call(1174) INFO 100.0% complete
+2020-08-21 00:47:03,479 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:03,480 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,480 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,481 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,482 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,482 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,483 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,484 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,485 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,486 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,487 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:03,489 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:03,489 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:03,620 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:03,621 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:03,638 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:03,639 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-23, started daemon 1900)>
+2020-08-21 00:47:03,643 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:03,643 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:03,644 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:03,644 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:03,654 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:03,655 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,656 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,657 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,658 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,658 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,659 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,660 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,661 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,662 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,663 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,664 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,664 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,665 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,666 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:03,667 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,668 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,669 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,670 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,670 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:03,671 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: False
+2020-08-21 00:47:03,672 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:03,674 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:03,674 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:03,778 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:03,779 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:03,795 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:03,797 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-24, started daemon 3124)>
+2020-08-21 00:47:03,801 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:03,802 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:03,802 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:03,802 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:03,816 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:03,817 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,817 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,818 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,819 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,820 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,821 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,821 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,823 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,823 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,824 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,825 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:03,826 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:03,826 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:03,931 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:03,931 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:03,947 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:03,948 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-25, started daemon 14188)>
+2020-08-21 00:47:03,951 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:03,951 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:03,952 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:03,952 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:03,962 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:03,963 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,964 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,964 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,965 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,966 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,967 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,968 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,968 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,969 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,970 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,970 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,971 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,971 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,972 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:03,972 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,973 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,974 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:03,975 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:03,976 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: False
+2020-08-21 00:47:03,977 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:03,978 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:03,978 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:04,113 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:04,114 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:04,142 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 00:47:04,143 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-26, started daemon 8092)>
+2020-08-21 00:47:04,148 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 00:47:04,148 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 00:47:04,149 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 00:47:04,149 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 00:47:04,159 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:04,160 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,161 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,162 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,163 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,164 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,165 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,166 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,167 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,167 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,168 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,169 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,170 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:04,171 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:04,171 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:04,277 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:04,277 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:04,319 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x1307F4A0> >
+2020-08-21 00:47:04,369 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rasterg__p1vot.tif
+2020-08-21 00:47:04,369 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-21 00:47:04,389 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-21 00:47:04,389 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-21 00:47:04,390 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-21 00:47:04,414 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-21 00:47:04,414 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:04,415 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,415 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,416 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,417 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,418 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,418 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,419 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,420 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,420 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,421 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,421 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,422 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,423 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,423 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:04,424 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,424 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,425 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:04,425 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: False
+2020-08-21 00:47:04,426 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:04,427 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:04,427 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:04,430 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:04,432 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-21 00:47:04,516 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:04,516 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:04,522 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:04,522 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:04,538 geoprocessing.zonal_statistics(1219) INFO processing 3 disjoint polygon sets
+2020-08-21 00:47:04,540 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:04,541 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,546 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,549 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:04,549 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,551 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,553 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:04,553 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,555 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,556 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-21 00:47:04,559 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5104220e+06  2.4550130e+02  0.0000000e+00  2.6753072e+06
+  0.0000000e+00 -2.4550130e+02] for ('C:\\Users\\RAKSHIT\\Documents\\sdr_workspace\\usle.tif', 1)
+2020-08-21 00:47:04,560 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-21 00:47:04,559 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:04,560 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watershed_results_sdr.shp
+2020-08-21 00:47:04,560 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,569 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,570 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,571 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x11DC55F0> >
+2020-08-21 00:47:04,572 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,574 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,601 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,617 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_raster0ge1s9hs.tif
+2020-08-21 00:47:04,617 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,618 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-21 00:47:04,618 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,640 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-21 00:47:04,640 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,641 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-21 00:47:04,641 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,643 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-21 00:47:04,643 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,644 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,669 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:04,672 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:04,672 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:04,673 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-21 00:47:04,762 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:04,762 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:04,764 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:04,764 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-21 00:47:04,772 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:04,772 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:04,784 geoprocessing.zonal_statistics(1219) INFO processing 3 disjoint polygon sets
+2020-08-21 00:47:04,784 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:04,785 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,790 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,792 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:04,792 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,794 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,796 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:04,797 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,799 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:04,800 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-21 00:47:04,803 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5104220e+06  2.4550130e+02  0.0000000e+00  2.6753072e+06
+  0.0000000e+00 -2.4550130e+02] for ('C:\\Users\\RAKSHIT\\Documents\\sdr_workspace\\sed_export.tif', 1)
+2020-08-21 00:47:04,800 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:04,804 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-21 00:47:04,804 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,805 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watershed_results_sdr.shp
+2020-08-21 00:47:04,805 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,807 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,809 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x11DC5878> >
+2020-08-21 00:47:04,808 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,811 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,812 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,812 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,813 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,813 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,814 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,840 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,856 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,857 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rastereze6dvon.tif
+2020-08-21 00:47:04,857 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,858 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-21 00:47:04,858 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:04,879 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-21 00:47:04,879 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:04,880 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-21 00:47:04,881 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:04,882 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-21 00:47:04,882 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: False
+2020-08-21 00:47:04,903 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:04,906 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:04,906 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:04,907 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-21 00:47:05,005 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:05,005 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:05,006 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:05,008 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-21 00:47:05,010 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:05,012 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:05,026 geoprocessing.zonal_statistics(1219) INFO processing 3 disjoint polygon sets
+2020-08-21 00:47:05,027 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:05,028 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,033 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,035 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:05,035 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,037 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,038 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:05,038 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,040 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,042 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-21 00:47:05,044 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5104220e+06  2.4550130e+02  0.0000000e+00  2.6753072e+06
+  0.0000000e+00 -2.4550130e+02] for ('C:\\Users\\RAKSHIT\\Documents\\sdr_workspace\\sed_retention.tif', 1)
+2020-08-21 00:47:05,045 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-21 00:47:05,046 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watershed_results_sdr.shp
+2020-08-21 00:47:05,048 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x11DC55F0> >
+2020-08-21 00:47:05,097 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rasterqhjdy0wy.tif
+2020-08-21 00:47:05,097 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-21 00:47:05,119 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:05,119 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-21 00:47:05,120 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,121 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-21 00:47:05,121 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,123 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-21 00:47:05,123 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,146 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,147 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,148 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,149 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,150 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,151 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,152 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,152 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-21 00:47:05,153 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,153 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,154 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,155 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:05,157 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:05,157 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:05,161 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:05,163 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-21 00:47:05,273 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:05,273 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:05,281 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:05,282 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watershed_results_sdr.shp
+2020-08-21 00:47:05,293 geoprocessing.zonal_statistics(1219) INFO processing 3 disjoint polygon sets
+2020-08-21 00:47:05,294 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:05,295 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,300 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,303 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:05,303 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,306 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,308 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 00:47:05,309 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,311 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 00:47:05,311 model._validation_finished(1776) INFO Whole-model validation returned: []
+2020-08-21 00:47:05,313 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d47d0) at 0x11656E18>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,314 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5310) at 0x11DB1B70>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,315 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d5928) at 0x11DB1A30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,316 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d72d8) at 0x11DB1440>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,317 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-21 00:47:05,316 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6150) at 0x11DB10A8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,320 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5104220e+06  2.4550130e+02  0.0000000e+00  2.6753072e+06
+  0.0000000e+00 -2.4550130e+02] for ('C:\\Users\\RAKSHIT\\Documents\\sdr_workspace\\sed_deposition.tif', 1)
+2020-08-21 00:47:05,320 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,321 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-21 00:47:05,321 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Folder(0xe5d2280) at 0x1164EF08>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,322 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watershed_results_sdr.shp
+2020-08-21 00:47:05,322 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3af8) at 0x11656F30>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,325 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d6630) at 0x11DB1148>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,332 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d73e0) at 0x11DB1530>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,333 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d4d58) at 0x11656170>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,348 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d25e0) at 0x116377B0>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,349 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.File(0xe5d3d98) at 0x11656BE8>.  Warnings: [].  Valid: True
+2020-08-21 00:47:05,350 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:05,351 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: []
+2020-08-21 00:47:05,352 model.post_warnings(1068) INFO Posting validation warnings to WMV dialog: [(['Threshold Flow Accumulation'], 'Input is required but has no value')]
+2020-08-21 00:47:05,352 inputs._validation_finished(1341) INFO Cleaning up validation for <natcap.invest.ui.inputs.Text(0xe5d6b10) at 0x11DB12D8>.  Warnings: [].  Valid: False
+2020-08-21 00:47:05,353 inputs.run(680) INFO Starting validation thread with target=<function invest_validator.<locals>._wrapped_validate_func at 0x1047A930>, args={'workspace_dir': 'C:\\Users\\RAKSHIT\\Documents\\sdr_workspace', 'results_suffix': '', 'dem_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/dem_aoi.tif', 'erosivity_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erosivity_R_aoi.tif', 'erodibility_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/erodibility_K_aoi.tif', 'lulc_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/lulc_aoi.tif', 'watersheds_path': 'D:/Work/GIS Wetland/InVEST_process/Ranchi/Getalsud/watersheds_aoi.shp', 'biophysical_table_path': 'D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv', 'threshold_flow_accumulation': '400', 'drainage_path': '', 'k_param': '2', 'ic_0_param': '0.5', 'sdr_max': '0.8'}, limit_to=None
+2020-08-21 00:47:05,355 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-21 00:47:05,355 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-21 00:47:05,456 model._logged_target(1638) INFO Execution finished
+2020-08-21 00:47:05,491 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-21 00:47:05,491 inputs.run(685) INFO Validation thread returned warnings: []
+2020-08-21 00:47:05,492 utils.prepare_workspace(117) INFO Elapsed time: 7.58s

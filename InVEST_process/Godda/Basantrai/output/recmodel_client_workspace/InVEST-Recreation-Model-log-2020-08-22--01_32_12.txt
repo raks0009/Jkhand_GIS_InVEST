@@ -1,0 +1,77 @@
+2020-08-22 01:32:12,228 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\recmodel_client_workspace\InVEST-Recreation-Model-log-2020-08-22--01_32_12.txt
+2020-08-22 01:32:12,232 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.recreation.recmodel_client 3.8.7:
+aoi_path                      D:/Work/GIS Wetland/InVEST_process/Godda/Basantrai/aoi.shp
+compute_regression            True
+end_year                      2017
+grid_aoi                      False
+n_workers                     -1
+predictor_table_path          D:/Work/GIS Wetland/InVEST_process/non-aoi Input/Recreation_Predictor.csv
+results_suffix                
+scenario_predictor_table_path 
+start_year                    2005
+workspace_dir                 C:\Users\RAKSHIT\Documents\recmodel_client_workspace
+
+2020-08-22 01:32:12,988 recmodel_client._retrieve_photo_user_days(456) INFO Contacting server, please wait.
+2020-08-22 01:32:14,790 recmodel_client._retrieve_photo_user_days(459) INFO Server online, version: 3.7.0.post141+hc694373c56a9.d20190708:./recserver_cache_py36/76e890d2cf86640e_fast_hash.pickle
+2020-08-22 01:32:15,045 recmodel_client._retrieve_photo_user_days(467) INFO Server supports year queries between 2005 and 2017
+2020-08-22 01:32:15,047 recmodel_client._retrieve_photo_user_days(486) INFO archiving C:\Users\RAKSHIT\Documents\recmodel_client_workspace\intermediate\aoi.prj
+2020-08-22 01:32:15,048 recmodel_client._retrieve_photo_user_days(486) INFO archiving C:\Users\RAKSHIT\Documents\recmodel_client_workspace\intermediate\aoi.shp
+2020-08-22 01:32:15,048 recmodel_client._retrieve_photo_user_days(486) INFO archiving C:\Users\RAKSHIT\Documents\recmodel_client_workspace\intermediate\aoi.shx
+2020-08-22 01:32:15,051 recmodel_client._retrieve_photo_user_days(486) INFO archiving C:\Users\RAKSHIT\Documents\recmodel_client_workspace\intermediate\aoi.dbf
+2020-08-22 01:32:15,061 recmodel_client._retrieve_photo_user_days(494) INFO Please wait for server to calculate PUD...
+2020-08-22 01:32:15,812 recmodel_client._retrieve_photo_user_days(502) INFO received result, took 0.751514 seconds, workspace_id: 4f5cf9bb-c7cf-4b88-9eac-3038cea28db5
+2020-08-22 01:32:15,848 recmodel_client._retrieve_photo_user_days(519) INFO connection release
+2020-08-22 01:32:15,907 recmodel_client._schedule_predictor_data_processing(679) INFO Processing predictor datasets
+2020-08-22 01:32:15,915 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor seaports
+2020-08-22 01:32:16,289 recmodel_client._point_count(1082) INFO world_seaports.shp point count: 100.00% complete
+2020-08-22 01:32:16,317 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor airports
+2020-08-22 01:32:16,376 geos.callback(209) INFO Invalid Coordinate at or near point -inf -inf
+2020-08-22 01:32:17,124 recmodel_client._point_nearest_distance(1040) INFO world_airports.shp point distance: 100.00% complete
+2020-08-22 01:32:17,164 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor roadway
+2020-08-22 01:32:25,868 recmodel_client.<lambda>(988) INFO roadway.shp line intersect length: 0.00% complete
+2020-08-22 01:32:25,869 recmodel_client._line_intersect_length(998) INFO roadway.shp line intersect length: 100.00% complete
+2020-08-22 01:32:25,940 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor railstatns
+2020-08-22 01:32:26,473 recmodel_client._point_nearest_distance(1040) INFO railstatn.shp point distance: 100.00% complete
+2020-08-22 01:32:26,510 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor taxi
+2020-08-22 01:32:26,584 recmodel_client._point_nearest_distance(1040) INFO taxi.shp point distance: 100.00% complete
+2020-08-22 01:32:26,609 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor tramstop
+2020-08-22 01:32:26,635 recmodel_client._point_nearest_distance(1040) INFO tram_stop.shp point distance: 100.00% complete
+2020-08-22 01:32:26,655 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor railhalt
+2020-08-22 01:32:26,749 recmodel_client._point_nearest_distance(1040) INFO railhalt.shp point distance: 100.00% complete
+2020-08-22 01:32:26,773 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor ferry
+2020-08-22 01:32:26,829 recmodel_client._point_nearest_distance(1040) INFO ferrystop.shp point distance: 100.00% complete
+2020-08-22 01:32:26,850 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor busstop
+2020-08-22 01:32:28,068 recmodel_client._point_nearest_distance(1040) INFO bus_stop.shp point distance: 100.00% complete
+2020-08-22 01:32:28,127 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor busstatn
+2020-08-22 01:32:28,268 recmodel_client._point_nearest_distance(1040) INFO bus_statn.shp point distance: 100.00% complete
+2020-08-22 01:32:28,293 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor railroad
+2020-08-22 01:32:28,328 recmodel_client._line_intersect_length(998) INFO railroad.shp line intersect length: 100.00% complete
+2020-08-22 01:32:28,403 recmodel_client._build_regression(1222) INFO Computing regression
+2020-08-22 01:32:28,445 recmodel_client._build_regression(1300) WARNING Linear model is under constrained with DOF=-11
+2020-08-22 01:32:28,446 recmodel_client._compute_and_summarize_regression(1174) INFO 
+******************************
+               estimate     stderr    t value
+(Intercept)  +0.000e+00 +nan +nan
+seaports     -0.000e+00 +nan +nan
+airports     +0.000e+00 +nan +nan
+roadway      +0.000e+00 +nan +nan
+railstatns   +0.000e+00 +nan +nan
+taxi         +0.000e+00 +nan +nan
+tramstop     +0.000e+00 +nan +nan
+railhalt     +0.000e+00 +nan +nan
+ferry        +0.000e+00 +nan +nan
+busstop      +0.000e+00 +nan +nan
+busstatn     +0.000e+00 +nan +nan
+railroad     +0.000e+00 +nan +nan
+---
+
+Residual standard error: nan on -11 degrees of freedom
+Multiple R-squared: 1.0000
+Adjusted R-squared: 1.0000
+SSres: 0.0000
+server id hash: 3.7.0.post141+hc694373c56a9.d20190708:./recserver_cache_py36/76e890d2cf86640e_fast_hash.pickle
+********************************
+
+2020-08-22 01:32:28,467 model._logged_target(1638) INFO Execution finished
+2020-08-22 01:32:28,468 utils.prepare_workspace(117) INFO Elapsed time: 16.24s

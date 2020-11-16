@@ -1,0 +1,305 @@
+2020-08-21 23:41:20,559 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\sdr_workspace\InVEST-Sediment-Delivery-Ratio-Model-(SDR)-log-2020-08-21--23_41_20.txt
+2020-08-21 23:41:20,561 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.sdr.sdr 3.8.7:
+biophysical_table_path      D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_SDR.csv
+dem_path                    D:/Work/GIS Wetland/InVEST_process/East Singhbhum/Dimna/dem_aoi.tif
+drainage_path               
+erodibility_path            D:/Work/GIS Wetland/InVEST_process/East Singhbhum/Dimna/erodibility_K_aoi.tif
+erosivity_path              D:/Work/GIS Wetland/InVEST_process/East Singhbhum/Dimna/erosivity_R_aoi.tif
+ic_0_param                  0.5
+k_param                     2
+lulc_path                   D:/Work/GIS Wetland/InVEST_process/East Singhbhum/Dimna/lulc_aoi.tif
+n_workers                   -1
+results_suffix              
+sdr_max                     0.8
+threshold_flow_accumulation 400
+watersheds_path             D:/Work/GIS Wetland/InVEST_process/East Singhbhum/Dimna/watersheds_aoi.shp
+workspace_dir               C:\Users\RAKSHIT\Documents\sdr_workspace
+
+2020-08-21 23:41:20,888 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:20,889 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-2, started daemon 544)>
+2020-08-21 23:41:20,895 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:20,897 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:20,897 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:20,897 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:20,906 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 4 aligned: aligned_dem.tif
+2020-08-21 23:41:20,964 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:20,965 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-3, started daemon 2152)>
+2020-08-21 23:41:20,973 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:20,973 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:20,974 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:20,974 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:20,985 geoprocessing.align_and_resize_raster_stack(752) INFO 2 of 4 aligned: aligned_lulc.tif
+2020-08-21 23:41:21,040 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,041 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-4, started daemon 11608)>
+2020-08-21 23:41:21,048 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,049 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,049 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,050 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,061 geoprocessing.align_and_resize_raster_stack(752) INFO 3 of 4 aligned: aligned_erosivity.tif
+2020-08-21 23:41:21,114 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,115 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-5, started daemon 11200)>
+2020-08-21 23:41:21,121 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,122 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,122 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,122 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,131 geoprocessing.align_and_resize_raster_stack(752) INFO 4 of 4 aligned: aligned_erodibility.tif
+2020-08-21 23:41:21,132 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 4 rasters.
+2020-08-21 23:41:21,217 Task._call(1174) INFO 100.0% complete
+2020-08-21 23:41:21,288 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,289 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-6, started daemon 464)>
+2020-08-21 23:41:21,291 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,292 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,292 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,292 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,387 Task._call(1174) INFO 100.0% complete
+2020-08-21 23:41:21,404 Task._call(1174) INFO Calculating average aspect
+2020-08-21 23:41:21,424 Task._call(1174) INFO Average aspect 0.00% complete
+2020-08-21 23:41:21,427 Task._call(1174) INFO Average aspect 100.00% complete
+2020-08-21 23:41:21,451 Task._call(1174) DEBUG creating target flow accum raster layer
+2020-08-21 23:41:21,469 Task._call(1174) DEBUG creating visited raster layer
+2020-08-21 23:41:21,478 Task._call(1174) DEBUG starting search
+2020-08-21 23:41:21,499 Task._call(1174) INFO 100.0% complete
+2020-08-21 23:41:21,532 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,533 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-7, started daemon 15028)>
+2020-08-21 23:41:21,537 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,537 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,537 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,538 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,618 Task._call(1174) INFO filter out incomplete divergent streams
+2020-08-21 23:41:21,621 Task._call(1174) INFO 100.0% complete
+2020-08-21 23:41:21,660 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,662 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-8, started daemon 1332)>
+2020-08-21 23:41:21,664 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,665 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,665 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,665 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,684 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,686 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-9, started daemon 1156)>
+2020-08-21 23:41:21,692 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,693 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,694 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,694 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,740 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,741 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-10, started daemon 10560)>
+2020-08-21 23:41:21,743 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,744 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,744 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,744 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,787 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,788 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-11, started daemon 9308)>
+2020-08-21 23:41:21,793 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,794 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,794 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,794 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,834 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,835 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-12, started daemon 8692)>
+2020-08-21 23:41:21,837 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,838 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,839 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,839 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,869 sdr._calculate_bar_factor(1076) DEBUG doing flow accumulation mfd on C:\Users\RAKSHIT\Documents\sdr_workspace\intermediate_outputs\w_threshold.tif
+2020-08-21 23:41:21,869 sdr._calculate_bar_factor(1084) DEBUG creating target flow accum raster layer
+2020-08-21 23:41:21,889 sdr._calculate_bar_factor(1084) DEBUG creating visited raster layer
+2020-08-21 23:41:21,899 sdr._calculate_bar_factor(1084) DEBUG starting search
+2020-08-21 23:41:21,919 sdr._calculate_bar_factor(1084) INFO 100.0% complete
+2020-08-21 23:41:21,925 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:21,926 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-13, started daemon 14132)>
+2020-08-21 23:41:21,932 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:21,932 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:21,932 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:21,932 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:21,964 sdr._calculate_bar_factor(1076) DEBUG doing flow accumulation mfd on C:\Users\RAKSHIT\Documents\sdr_workspace\intermediate_outputs\slope_threshold.tif
+2020-08-21 23:41:21,965 sdr._calculate_bar_factor(1084) DEBUG creating target flow accum raster layer
+2020-08-21 23:41:21,976 sdr._calculate_bar_factor(1084) DEBUG creating visited raster layer
+2020-08-21 23:41:21,986 sdr._calculate_bar_factor(1084) DEBUG starting search
+2020-08-21 23:41:22,005 sdr._calculate_bar_factor(1084) INFO 100.0% complete
+2020-08-21 23:41:22,013 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,014 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-14, started daemon 13956)>
+2020-08-21 23:41:22,020 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,020 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,020 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,021 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,062 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,063 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-15, started daemon 13876)>
+2020-08-21 23:41:22,066 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,066 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,066 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,066 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,103 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,104 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-16, started daemon 12976)>
+2020-08-21 23:41:22,107 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,107 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,108 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,108 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,169 Task._call(1174) INFO 100.0% complete
+2020-08-21 23:41:22,196 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,196 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-17, started daemon 10748)>
+2020-08-21 23:41:22,199 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,200 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,200 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,200 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,235 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,236 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-18, started daemon 13316)>
+2020-08-21 23:41:22,238 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,239 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,239 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,240 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,275 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,277 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-19, started daemon 1336)>
+2020-08-21 23:41:22,279 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,281 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,281 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,281 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,315 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,316 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-20, started daemon 5380)>
+2020-08-21 23:41:22,318 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,319 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,319 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,319 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,350 Task._call(1174) INFO calculate sediment deposition
+2020-08-21 23:41:22,376 Task._call(1174) INFO 0.00% complete
+2020-08-21 23:41:22,382 Task._call(1174) INFO 100% complete
+2020-08-21 23:41:22,426 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,427 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-21, started daemon 10696)>
+2020-08-21 23:41:22,430 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,430 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,431 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,432 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,464 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,465 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-22, started daemon 3388)>
+2020-08-21 23:41:22,467 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,468 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,468 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,468 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,529 Task._call(1174) INFO 100.0% complete
+2020-08-21 23:41:22,559 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,560 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-23, started daemon 8256)>
+2020-08-21 23:41:22,563 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,563 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,564 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,565 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,611 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,612 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-24, started daemon 1816)>
+2020-08-21 23:41:22,616 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,616 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,618 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,617 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,660 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,662 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-25, started daemon 8904)>
+2020-08-21 23:41:22,664 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,665 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,666 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,666 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,720 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:41:22,721 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-26, started daemon 10428)>
+2020-08-21 23:41:22,726 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:41:22,726 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:41:22,727 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:41:22,727 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:41:22,784 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x1160DD28> >
+2020-08-21 23:41:22,822 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rasterxy_4dchu.tif
+2020-08-21 23:41:22,822 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-21 23:41:22,844 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-21 23:41:22,844 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-21 23:41:22,845 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-21 23:41:22,867 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-21 23:41:22,868 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:22,869 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-21 23:41:22,869 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:22,869 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:22,888 geoprocessing.zonal_statistics(1219) INFO processing 3 disjoint polygon sets
+2020-08-21 23:41:22,888 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:22,888 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:22,894 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:22,896 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:22,897 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:22,898 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:22,899 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:22,900 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:22,902 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:22,903 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 3 
+2020-08-21 23:41:22,906 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5990530e+06  2.4060704e+02  0.0000000e+00  2.6003882e+06
+  0.0000000e+00 -2.4060704e+02] for ('C:\\Users\\RAKSHIT\\Documents\\sdr_workspace\\usle.tif', 1)
+2020-08-21 23:41:22,907 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 3 
+2020-08-21 23:41:22,907 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watershed_results_sdr.shp
+2020-08-21 23:41:22,913 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x0FECAC38> >
+2020-08-21 23:41:22,952 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rasterhao7lh6_.tif
+2020-08-21 23:41:22,952 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-21 23:41:22,975 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-21 23:41:22,975 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-21 23:41:22,976 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-21 23:41:22,998 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-21 23:41:22,998 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:22,999 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-21 23:41:22,999 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:22,999 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:23,012 geoprocessing.zonal_statistics(1219) INFO processing 3 disjoint polygon sets
+2020-08-21 23:41:23,012 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,013 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,017 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,018 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,019 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,020 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,021 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,023 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,024 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,025 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 3 
+2020-08-21 23:41:23,028 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5990530e+06  2.4060704e+02  0.0000000e+00  2.6003882e+06
+  0.0000000e+00 -2.4060704e+02] for ('C:\\Users\\RAKSHIT\\Documents\\sdr_workspace\\sed_export.tif', 1)
+2020-08-21 23:41:23,028 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 3 
+2020-08-21 23:41:23,029 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watershed_results_sdr.shp
+2020-08-21 23:41:23,032 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x0FECAC38> >
+2020-08-21 23:41:23,070 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rasterzay45b86.tif
+2020-08-21 23:41:23,071 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-21 23:41:23,092 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-21 23:41:23,092 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-21 23:41:23,093 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-21 23:41:23,114 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-21 23:41:23,116 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:23,116 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-21 23:41:23,117 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:23,117 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:23,129 geoprocessing.zonal_statistics(1219) INFO processing 3 disjoint polygon sets
+2020-08-21 23:41:23,129 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,129 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,133 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,135 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,135 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,137 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,139 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,141 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,144 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,146 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 3 
+2020-08-21 23:41:23,148 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5990530e+06  2.4060704e+02  0.0000000e+00  2.6003882e+06
+  0.0000000e+00 -2.4060704e+02] for ('C:\\Users\\RAKSHIT\\Documents\\sdr_workspace\\sed_retention.tif', 1)
+2020-08-21 23:41:23,149 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 3 
+2020-08-21 23:41:23,149 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watershed_results_sdr.shp
+2020-08-21 23:41:23,153 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x0FECAC38> >
+2020-08-21 23:41:23,192 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_raster7fx5hzd7.tif
+2020-08-21 23:41:23,192 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-21 23:41:23,213 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-21 23:41:23,213 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-21 23:41:23,214 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-21 23:41:23,234 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-21 23:41:23,234 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:23,235 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-21 23:41:23,235 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:23,235 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on watershed_results_sdr.shp
+2020-08-21 23:41:23,247 geoprocessing.zonal_statistics(1219) INFO processing 3 disjoint polygon sets
+2020-08-21 23:41:23,247 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,247 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,252 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,253 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,254 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,256 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,257 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 3 100.0% processed on watershed_results_sdr.shp
+2020-08-21 23:41:23,257 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,259 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 3 watershed_results_sdr.shp
+2020-08-21 23:41:23,260 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 3 
+2020-08-21 23:41:23,262 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5990530e+06  2.4060704e+02  0.0000000e+00  2.6003882e+06
+  0.0000000e+00 -2.4060704e+02] for ('C:\\Users\\RAKSHIT\\Documents\\sdr_workspace\\sed_deposition.tif', 1)
+2020-08-21 23:41:23,263 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 3 
+2020-08-21 23:41:23,263 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for watershed_results_sdr.shp
+2020-08-21 23:41:23,289 model._logged_target(1638) INFO Execution finished
+2020-08-21 23:41:23,290 utils.prepare_workspace(117) INFO Elapsed time: 2.73s

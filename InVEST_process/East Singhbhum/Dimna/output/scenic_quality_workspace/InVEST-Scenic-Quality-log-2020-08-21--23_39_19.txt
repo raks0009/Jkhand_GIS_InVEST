@@ -1,0 +1,66 @@
+2020-08-21 23:39:19,312 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\scenic_quality_workspace\InVEST-Scenic-Quality-log-2020-08-21--23_39_19.txt
+2020-08-21 23:39:19,315 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.scenic_quality.scenic_quality 3.8.7:
+a_coef               1
+aoi_path             D:/Work/GIS Wetland/InVEST_process/East Singhbhum/Dimna/aoi.shp
+b_coef               0
+dem_path             D:/Work/GIS Wetland/InVEST_process/East Singhbhum/Dimna/dem_aoi.tif
+do_valuation         True
+max_valuation_radius 8000
+n_workers            -1
+refraction           0.13
+results_suffix       
+structure_path       D:/Work/GIS Wetland/InVEST_process/East Singhbhum/Dimna/obstructions_aoi.shp
+valuation_function   linear: a + bx
+workspace_dir        C:\Users\RAKSHIT\Documents\scenic_quality_workspace
+
+2020-08-21 23:39:19,363 scenic_quality.execute(207) INFO Starting Scenic Quality Model
+2020-08-21 23:39:19,396 scenic_quality.execute(240) INFO Building file registry
+2020-08-21 23:39:19,503 geoprocessing.reproject_vector(1640) INFO starting reprojection
+2020-08-21 23:39:19,504 geoprocessing.reproject_vector(1683) INFO reprojection 100.0% complete on aoi_reprojected.shp
+2020-08-21 23:39:19,564 geoprocessing.reproject_vector(1640) INFO starting reprojection
+2020-08-21 23:39:19,565 geoprocessing.reproject_vector(1683) INFO reprojection 100.0% complete on structures_reprojected.shp
+2020-08-21 23:39:19,663 scenic_quality._clip_and_mask_dem(833) INFO Clipping the DEM to its intersection with the AOI.
+2020-08-21 23:39:19,700 scenic_quality._clip_and_mask_dem(851) INFO Masking DEM pixels outside the AOI to nodata
+2020-08-21 23:39:19,756 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:39:19,757 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-2, started daemon 3220)>
+2020-08-21 23:39:19,763 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:39:19,764 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:39:19,764 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:39:19,765 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:39:19,789 scenic_quality.execute(294) INFO Waiting for clipping to finish
+2020-08-21 23:39:19,793 scenic_quality._determine_valid_viewpoints(465) INFO Layer structures_clipped has 1 features
+2020-08-21 23:39:19,838 Task._call(1174) INFO Creating auxiliary raster C:\Users\RAKSHIT\AppData\Local\Temp\viewshed_2020-08-21_18_09_19yeskz1j5\auxiliary.tif
+2020-08-21 23:39:19,847 Task._call(1174) INFO Creating visibility raster C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\visibility_0.tif
+2020-08-21 23:39:19,857 Task._call(1174) INFO Starting viewshed for viewpoint (9599174.748, 2599641.919300001) on DEM C:\Users\RAKSHIT\Documents\scenic_quality_workspace\intermediate\dem_clipped.tif
+2020-08-21 23:39:19,861 Task._call(1174) INFO 100.00% complete after 0.03s
+2020-08-21 23:39:19,896 scenic_quality._calculate_valuation(702) INFO Calculating valuation with linear method. Coefficients: a=1 b=0
+2020-08-21 23:39:19,935 scenic_quality._count_and_weight_visible_structures(895) INFO Summing and weighting 1 visibility rasters
+2020-08-21 23:39:19,982 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:39:19,983 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-3, started daemon 9520)>
+2020-08-21 23:39:19,992 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:39:19,992 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:39:19,992 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:39:19,993 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:39:20,020 scenic_quality._calculate_visual_quality(981) INFO Calculating visual quality
+2020-08-21 23:39:20,022 scenic_quality._calculate_visual_quality(991) INFO Determining percentiles for vshed_value.tif
+2020-08-21 23:39:20,027 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:39:20,028 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-4, started daemon 15044)>
+2020-08-21 23:39:20,033 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:39:20,033 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:39:20,033 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:39:20,034 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:39:20,050 scenic_quality._calculate_visual_quality(1011) WARNING couldn't make working_sort_directory: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\RAKSHIT\\Documents\\scenic_quality_workspace\\intermediate\\visual_qualityugfhojxk'
+2020-08-21 23:39:20,054 scenic_quality._calculate_visual_quality(1011) DEBUG sorting data to heap
+2020-08-21 23:39:20,063 scenic_quality._calculate_visual_quality(1011) DEBUG calculating percentiles
+2020-08-21 23:39:20,064 scenic_quality._calculate_visual_quality(1011) DEBUG here is percentile_list: [1.0, 1.0, 1.0, 1.0]
+2020-08-21 23:39:20,064 scenic_quality._calculate_visual_quality(1017) INFO Mapping percentile breaks [1. 1. 1. 1.]
+2020-08-21 23:39:20,070 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-21 23:39:20,071 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-5, started daemon 8664)>
+2020-08-21 23:39:20,075 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-21 23:39:20,076 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-21 23:39:20,076 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-21 23:39:20,076 threading.run(870) DEBUG payload is None, terminating
+2020-08-21 23:39:20,098 scenic_quality.execute(405) INFO Waiting for Scenic Quality tasks to complete.
+2020-08-21 23:39:20,099 model._logged_target(1638) INFO Execution finished
+2020-08-21 23:39:20,100 utils.prepare_workspace(117) INFO Elapsed time: 0.79s

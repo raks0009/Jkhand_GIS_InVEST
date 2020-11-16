@@ -1,0 +1,24 @@
+
+******************************
+               estimate     stderr    t value
+(Intercept)  +6.210e-12 +nan +nan
+seaports     +0.000e+00 +nan +nan
+airports     +0.000e+00 +nan +nan
+roadway      +1.726e-07 +nan +nan
+railstatns   +5.498e-08 +nan +nan
+taxi         +3.849e-07 +nan +nan
+tramstop     +1.325e-06 +nan +nan
+railhalt     +3.692e-07 +nan +nan
+ferry        +6.303e-07 +nan +nan
+busstop      +2.915e-07 +nan +nan
+busstatn     +3.479e-07 +nan +nan
+railroad     +0.000e+00 +nan +nan
+---
+
+Residual standard error: nan on -11 degrees of freedom
+Multiple R-squared: 1.0000
+Adjusted R-squared: 1.0000
+SSres: 0.0000
+server id hash: 3.7.0.post141+hc694373c56a9.d20190708:./recserver_cache_py36/76e890d2cf86640e_fast_hash.pickle
+********************************
+

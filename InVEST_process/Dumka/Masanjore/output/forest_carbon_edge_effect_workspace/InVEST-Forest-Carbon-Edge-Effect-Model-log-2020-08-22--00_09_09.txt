@@ -1,0 +1,47 @@
+2020-08-22 00:09:09,341 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\forest_carbon_edge_effect_workspace\InVEST-Forest-Carbon-Edge-Effect-Model-log-2020-08-22--00_09_09.txt
+2020-08-22 00:09:09,345 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.forest_carbon_edge_effect 3.8.7:
+aoi_vector_path                               
+biomass_to_carbon_conversion_factor           0.47
+biophysical_table_path                        D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_CarbonEdge.csv
+compute_forest_edge_effects                   True
+lulc_raster_path                              D:/Work/GIS Wetland/InVEST_process/Dumka/Masanjore/lulc_aoi.tif
+n_nearest_model_points                        10
+n_workers                                     -1
+pools_to_calculate                            above_ground
+results_suffix                                
+tropical_forest_edge_carbon_model_vector_path D:/Work/GIS Wetland/InVEST 3.8.7 x86/Sample Datasets/forest_carbon_edge_effect/core_data/forest_carbon_edge_regression_model_parameters.shp
+workspace_dir                                 C:\Users\RAKSHIT\Documents\forest_carbon_edge_effect_workspace
+
+2020-08-22 00:09:09,461 forest_carbon_edge_effect.execute(304) INFO Calculating direct mapped carbon stocks
+2020-08-22 00:09:09,495 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:09:09,496 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-18, started daemon 7600)>
+2020-08-22 00:09:09,502 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:09:09,502 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:09:09,502 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:09:09,503 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:09:09,527 forest_carbon_edge_effect.execute(328) INFO Calculating distance from forest edge
+2020-08-22 00:09:09,545 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:09:09,545 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-19, started daemon 4668)>
+2020-08-22 00:09:09,552 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:09:09,552 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:09:09,552 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:09:09,552 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:09:09,580 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:09:09,614 geoprocessing.distance_transform_edt(2257) INFO Distance Transform Phase 2
+2020-08-22 00:09:09,643 forest_carbon_edge_effect.execute(339) INFO Building spatial index for forest edge models.
+2020-08-22 00:09:09,671 geoprocessing.reproject_vector(1640) INFO starting reprojection
+2020-08-22 00:09:09,881 geoprocessing.reproject_vector(1683) INFO reprojection 100.0% complete on local_carbon_shape.shp
+2020-08-22 00:09:10,053 forest_carbon_edge_effect._build_spatial_index(684) INFO Building kd_tree
+2020-08-22 00:09:10,058 forest_carbon_edge_effect._build_spatial_index(686) INFO Done building kd_tree with 2313 points
+2020-08-22 00:09:10,080 forest_carbon_edge_effect.execute(349) INFO Calculating forest edge carbon
+2020-08-22 00:09:10,103 forest_carbon_edge_effect._calculate_tropical_forest_edge_carbon_map(879) INFO Carbon edge calculation 100.0% complete
+2020-08-22 00:09:10,126 forest_carbon_edge_effect.execute(367) INFO combining carbon maps into single raster
+2020-08-22 00:09:10,136 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 00:09:10,137 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-24, started daemon 13564)>
+2020-08-22 00:09:10,140 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 00:09:10,140 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 00:09:10,141 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 00:09:10,141 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 00:09:10,168 model._logged_target(1638) INFO Execution finished
+2020-08-22 00:09:10,169 utils.prepare_workspace(117) INFO Elapsed time: 0.83s

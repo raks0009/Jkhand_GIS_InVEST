@@ -1,0 +1,108 @@
+2020-08-22 01:20:24,778 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\carbon_workspace\InVEST-InVEST-Carbon-Model-log-2020-08-22--01_20_24.txt
+2020-08-22 01:20:24,780 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.carbon 3.8.7:
+calc_sequestration        True
+carbon_pools_path         D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_Carbon.csv
+discount_rate             5
+do_redd                   False
+do_valuation              True
+lulc_cur_path             D:/Work/GIS Wetland/InVEST_process/Garhwa/Garhwa 8_Panghatwa/lulc_aoi.tif
+lulc_cur_year             2009
+lulc_fut_path             D:/Work/GIS Wetland/InVEST_process/Garhwa/Garhwa 8_Panghatwa/lulc_aoi.tif
+lulc_fut_year             2020
+lulc_redd_path            
+n_workers                 -1
+price_per_metric_ton_of_c 86
+rate_change               3
+results_suffix            
+workspace_dir             C:\Users\RAKSHIT\Documents\carbon_workspace
+
+2020-08-22 01:20:24,809 carbon.execute(256) INFO Building file registry
+2020-08-22 01:20:24,879 carbon.execute(301) INFO Map all carbon pools to carbon storage rasters.
+2020-08-22 01:20:24,879 carbon.execute(316) INFO Mapping carbon from 'lulc_cur_path' to 'c_above_cur' scenario.
+2020-08-22 01:20:24,894 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:24,895 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-80, started daemon 12656)>
+2020-08-22 01:20:24,902 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:24,902 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:24,902 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:24,902 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:24,923 carbon.execute(316) INFO Mapping carbon from 'lulc_cur_path' to 'c_below_cur' scenario.
+2020-08-22 01:20:24,938 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:24,939 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-81, started daemon 5132)>
+2020-08-22 01:20:24,941 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:24,941 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:24,942 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:24,942 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:24,965 carbon.execute(316) INFO Mapping carbon from 'lulc_cur_path' to 'c_soil_cur' scenario.
+2020-08-22 01:20:24,978 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:24,979 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-82, started daemon 15252)>
+2020-08-22 01:20:24,981 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:24,982 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:24,982 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:24,982 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,012 carbon.execute(316) INFO Mapping carbon from 'lulc_cur_path' to 'c_dead_cur' scenario.
+2020-08-22 01:20:25,027 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,028 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-83, started daemon 968)>
+2020-08-22 01:20:25,030 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,031 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,031 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,032 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,058 carbon.execute(329) INFO Calculate carbon storage for 'tot_c_cur'
+2020-08-22 01:20:25,076 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,077 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-84, started daemon 10092)>
+2020-08-22 01:20:25,086 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,086 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,086 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,086 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,118 carbon.execute(316) INFO Mapping carbon from 'lulc_fut_path' to 'c_above_fut' scenario.
+2020-08-22 01:20:25,137 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,138 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-85, started daemon 12412)>
+2020-08-22 01:20:25,141 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,176 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,176 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,177 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,197 carbon.execute(316) INFO Mapping carbon from 'lulc_fut_path' to 'c_below_fut' scenario.
+2020-08-22 01:20:25,214 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,215 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-86, started daemon 4240)>
+2020-08-22 01:20:25,218 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,218 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,219 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,219 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,240 carbon.execute(316) INFO Mapping carbon from 'lulc_fut_path' to 'c_soil_fut' scenario.
+2020-08-22 01:20:25,255 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,256 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-87, started daemon 13100)>
+2020-08-22 01:20:25,258 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,259 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,259 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,259 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,278 carbon.execute(316) INFO Mapping carbon from 'lulc_fut_path' to 'c_dead_fut' scenario.
+2020-08-22 01:20:25,292 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,293 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-88, started daemon 2120)>
+2020-08-22 01:20:25,295 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,295 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,295 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,295 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,313 carbon.execute(329) INFO Calculate carbon storage for 'tot_c_fut'
+2020-08-22 01:20:25,327 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,328 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-89, started daemon 7524)>
+2020-08-22 01:20:25,334 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,335 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,336 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,335 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,354 carbon.execute(346) INFO Calculate sequestration scenario 'delta_cur_fut'
+2020-08-22 01:20:25,363 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,365 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-90, started daemon 2620)>
+2020-08-22 01:20:25,368 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,368 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,369 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,369 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,390 carbon.execute(363) INFO Constructing valuation formula.
+2020-08-22 01:20:25,390 carbon.execute(373) INFO Calculating NPV for scenario 'npv_fut'
+2020-08-22 01:20:25,397 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-22 01:20:25,398 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-91, started daemon 8636)>
+2020-08-22 01:20:25,404 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-22 01:20:25,405 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-22 01:20:25,406 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-22 01:20:25,406 threading.run(870) DEBUG payload is None, terminating
+2020-08-22 01:20:25,471 model._logged_target(1638) INFO Execution finished
+2020-08-22 01:20:25,472 utils.prepare_workspace(117) INFO Elapsed time: 0.69s

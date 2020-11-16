@@ -1,0 +1,13 @@
+
+
+to cut a raster to AoI : In export raster, the option to clip appears.
+
+to create AoI shape: in Catalog > right-click (Specific Folder) > New > Shapefile 
+		     Select the created shapefile from Contents pane
+                     Edit Pane in the Top-ribbon > Create
+
+to extract a field from attribute table of a raster: Lookup Tool (advisable to clip to AoI first and then apply this tool)
+
+to calculate a new field: use excel and then import into ArcGIS Pro
+
+to convert units: Analysis ribbon pane > Raster Functions > Unit Conversion

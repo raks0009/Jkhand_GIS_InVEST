@@ -1,0 +1,23 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DataType">Generic</MDI>
+  </Metadata>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>pet_pm_sr_yr</Description>
+    <Metadata>
+      <MDI key="BandName">pet_pm_sr_yr</MDI>
+      <MDI key="RepresentationType">THEMATIC</MDI>
+      <MDI key="STATISTICS_COVARIANCES">192.1970779220737</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">1941</MDI>
+      <MDI key="STATISTICS_MEAN">1908.8035714286</MDI>
+      <MDI key="STATISTICS_MINIMUM">1877</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">13.863516073568</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

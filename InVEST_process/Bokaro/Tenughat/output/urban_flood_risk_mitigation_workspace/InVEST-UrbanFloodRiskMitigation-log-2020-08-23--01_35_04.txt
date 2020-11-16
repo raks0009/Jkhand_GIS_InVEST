@@ -1,0 +1,63 @@
+2020-08-23 01:35:04,686 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\urban_flood_risk_mitigation_workspace\InVEST-UrbanFloodRiskMitigation-log-2020-08-23--01_35_04.txt
+2020-08-23 01:35:04,688 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.urban_flood_risk_mitigation 3.8.7:
+aoi_watersheds_path                   D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/watersheds_aoi.shp
+built_infrastructure_vector_path      
+curve_number_table_path               D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_UFRM.csv
+infrastructure_damage_loss_table_path 
+lulc_path                             D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/lulc_aoi.tif
+n_workers                             -1
+rainfall_depth                        100
+results_suffix                        
+soils_hydrological_group_raster_path  D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/hysog_ao.tif
+workspace_dir                         C:\Users\RAKSHIT\Documents\urban_flood_risk_mitigation_workspace
+
+2020-08-23 01:35:04,731 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-23 01:35:04,731 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-23 01:35:04,803 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-23 01:35:04,861 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 2 aligned: aligned_lulc.tif
+2020-08-23 01:35:04,874 geoprocessing.align_and_resize_raster_stack(752) INFO 2 of 2 aligned: aligned_soils_hydrological_group.tif
+2020-08-23 01:35:04,874 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 2 rasters.
+2020-08-23 01:35:04,926 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-23 01:35:04,927 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-2, started daemon 8460)>
+2020-08-23 01:35:04,937 threading.run(870) DEBUG payload is None, terminating
+2020-08-23 01:35:04,936 geoprocessing.raster_calculator(486) INFO Waiting for raster stats worker result.
+2020-08-23 01:35:04,937 threading.run(870) WARNING No valid pixels were received, sending None.
+2020-08-23 01:35:04,938 Task.add_task(731) ERROR Something went wrong when adding task create Curve Number raster (1), terminating taskgraph.
+Traceback (most recent call last):
+  File "site-packages\natcap\invest\urban_flood_risk_mitigation.py", line 786, in _lu_to_cn_op
+  File "<__array_function__ internals>", line 6, in choose
+  File "site-packages\numpy\core\fromnumeric.py", line 430, in choose
+  File "site-packages\numpy\core\fromnumeric.py", line 58, in _wrapfunc
+ValueError: invalid entry in choice array
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "site-packages\taskgraph\Task.py", line 697, in add_task
+  File "site-packages\taskgraph\Task.py", line 1174, in _call
+  File "site-packages\pygeoprocessing\geoprocessing.py", line 424, in raster_calculator
+  File "site-packages\natcap\invest\urban_flood_risk_mitigation.py", line 791, in _lu_to_cn_op
+ValueError: invalid entry in choice array
+Check that the Soil Group raster does not contain values other than (1, 2, 3, 4)
+2020-08-23 01:35:04,939 model._logged_target(1635) ERROR Exception while executing <function execute at 0x1083F858>
+Traceback (most recent call last):
+  File "site-packages\natcap\invest\urban_flood_risk_mitigation.py", line 786, in _lu_to_cn_op
+  File "<__array_function__ internals>", line 6, in choose
+  File "site-packages\numpy\core\fromnumeric.py", line 430, in choose
+  File "site-packages\numpy\core\fromnumeric.py", line 58, in _wrapfunc
+ValueError: invalid entry in choice array
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "site-packages\natcap\invest\ui\model.py", line 1632, in _logged_target
+  File "site-packages\natcap\invest\urban_flood_risk_mitigation.py", line 241, in execute
+  File "site-packages\taskgraph\Task.py", line 697, in add_task
+  File "site-packages\taskgraph\Task.py", line 1174, in _call
+  File "site-packages\pygeoprocessing\geoprocessing.py", line 424, in raster_calculator
+  File "site-packages\natcap\invest\urban_flood_risk_mitigation.py", line 791, in _lu_to_cn_op
+ValueError: invalid entry in choice array
+Check that the Soil Group raster does not contain values other than (1, 2, 3, 4)
+2020-08-23 01:35:04,940 model._logged_target(1638) INFO Execution finished
+2020-08-23 01:35:04,947 utils.prepare_workspace(117) INFO Elapsed time: 0.26s

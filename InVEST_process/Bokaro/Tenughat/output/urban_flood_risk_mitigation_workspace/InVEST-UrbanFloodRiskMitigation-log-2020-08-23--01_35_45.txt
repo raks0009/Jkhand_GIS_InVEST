@@ -1,0 +1,149 @@
+2020-08-23 01:35:45,229 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\urban_flood_risk_mitigation_workspace\InVEST-UrbanFloodRiskMitigation-log-2020-08-23--01_35_45.txt
+2020-08-23 01:35:45,230 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.urban_flood_risk_mitigation 3.8.7:
+aoi_watersheds_path                   D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/watersheds_aoi.shp
+built_infrastructure_vector_path      
+curve_number_table_path               D:/Work/GIS Wetland/data/GlobCover 2009 LULC/LULC Tables/LULC_UFRM.csv
+infrastructure_damage_loss_table_path 
+lulc_path                             D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/lulc_aoi.tif
+n_workers                             -1
+rainfall_depth                        100
+results_suffix                        
+soils_hydrological_group_raster_path  D:/Work/GIS Wetland/InVEST_process/Bokaro/Tenughat/hysog_ao.tif
+workspace_dir                         C:\Users\RAKSHIT\Documents\urban_flood_risk_mitigation_workspace
+
+2020-08-23 01:35:45,286 validation._wrapped_validate_func(839) DEBUG Using ARG_SPEC for validation
+2020-08-23 01:35:45,286 validation._wrapped_validate_func(843) INFO Starting whole-model validation with ARGS_SPEC
+2020-08-23 01:35:45,377 validation._wrapped_validate_func(889) DEBUG Validation warnings: []
+2020-08-23 01:35:45,487 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 2 aligned: aligned_lulc.tif
+2020-08-23 01:35:45,501 geoprocessing.align_and_resize_raster_stack(752) INFO 2 of 2 aligned: aligned_soils_hydrological_group.tif
+2020-08-23 01:35:45,501 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 2 rasters.
+2020-08-23 01:35:45,550 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-23 01:35:45,551 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-4, started daemon 11716)>
+2020-08-23 01:35:45,554 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-23 01:35:45,556 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-23 01:35:45,556 threading.run(870) DEBUG payload is None, terminating
+2020-08-23 01:35:45,556 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-23 01:35:45,587 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-23 01:35:45,588 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-5, started daemon 7900)>
+2020-08-23 01:35:45,596 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-23 01:35:45,596 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-23 01:35:45,597 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-23 01:35:45,597 threading.run(870) DEBUG payload is None, terminating
+2020-08-23 01:35:45,628 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-23 01:35:45,629 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-6, started daemon 1716)>
+2020-08-23 01:35:45,632 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-23 01:35:45,632 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-23 01:35:45,632 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-23 01:35:45,633 threading.run(870) DEBUG payload is None, terminating
+2020-08-23 01:35:45,665 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-23 01:35:45,666 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-7, started daemon 13924)>
+2020-08-23 01:35:45,668 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-23 01:35:45,669 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-23 01:35:45,669 threading.run(870) DEBUG payload is None, terminating
+2020-08-23 01:35:45,669 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-23 01:35:45,705 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-23 01:35:45,706 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-8, started daemon 4580)>
+2020-08-23 01:35:45,708 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-23 01:35:45,708 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-23 01:35:45,709 threading.run(870) DEBUG payload is None, terminating
+2020-08-23 01:35:45,709 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-23 01:35:45,743 geoprocessing.raster_calculator(375) INFO starting stats_worker
+2020-08-23 01:35:45,743 geoprocessing.raster_calculator(381) INFO started stats_worker <Thread(Thread-9, started daemon 1028)>
+2020-08-23 01:35:45,746 geoprocessing.raster_calculator(454) INFO 100.0%% complete
+2020-08-23 01:35:45,746 geoprocessing.raster_calculator(457) INFO signaling stats worker to terminate
+2020-08-23 01:35:45,746 threading.run(870) DEBUG payload is None, terminating
+2020-08-23 01:35:45,746 geoprocessing.raster_calculator(459) INFO Waiting for raster stats worker result.
+2020-08-23 01:35:45,869 geoprocessing.reproject_vector(1640) INFO starting reprojection
+2020-08-23 01:35:45,876 utils._log_gdal_errors(68) WARNING [errno 1] A geometry of type MULTIPOLYGON is inserted into layer watersheds_aoi of geometry type POLYGON, which is not normally allowed by the GeoPackage specification, but the driver will however do it. To create a conformant GeoPackage, if using ogr2ogr, the -nlt option can be used to override the layer geometry type. This warning will no longer be emitted for this combination of layer and feature geometry type.
+2020-08-23 01:35:45,882 geoprocessing.reproject_vector(1683) INFO reprojection 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:45,964 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x0FDD8338> >
+2020-08-23 01:35:45,990 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_raster8smcib8h.tif
+2020-08-23 01:35:45,990 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-23 01:35:45,993 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-23 01:35:45,994 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-23 01:35:46,000 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-23 01:35:46,006 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-23 01:35:46,011 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,011 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-23 01:35:46,014 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,015 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,033 geoprocessing.zonal_statistics(1219) INFO processing 4 disjoint polygon sets
+2020-08-23 01:35:46,035 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,036 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,043 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,046 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,046 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,049 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,050 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,051 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,052 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,054 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 4 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,054 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 4 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,056 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 4 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,057 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-23 01:35:46,060 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5447140e+06  4.6622726e+02  0.0000000e+00  2.7088190e+06
+  0.0000000e+00 -4.5389456e+02] for ('C:\\Users\\RAKSHIT\\Documents\\urban_flood_risk_mitigation_workspace\\intermediate_files\\Q_m3.tif', 1)
+2020-08-23 01:35:46,060 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-23 01:35:46,060 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for reprojected_aoi.gpkg
+2020-08-23 01:35:46,091 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x0FDD8458> >
+2020-08-23 01:35:46,118 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_raster8jt_nigf.tif
+2020-08-23 01:35:46,118 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-23 01:35:46,120 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-23 01:35:46,121 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-23 01:35:46,126 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-23 01:35:46,127 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-23 01:35:46,128 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,129 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-23 01:35:46,131 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,131 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,145 geoprocessing.zonal_statistics(1219) INFO processing 4 disjoint polygon sets
+2020-08-23 01:35:46,146 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,146 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,152 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,156 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,156 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,158 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,160 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,160 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,162 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,164 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 4 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,165 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 4 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,167 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 4 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,168 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-23 01:35:46,172 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5447140e+06  4.6622726e+02  0.0000000e+00  2.7088190e+06
+  0.0000000e+00 -4.5389456e+02] for ('C:\\Users\\RAKSHIT\\Documents\\urban_flood_risk_mitigation_workspace\\Runoff_retention.tif', 1)
+2020-08-23 01:35:46,172 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-23 01:35:46,173 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for reprojected_aoi.gpkg
+2020-08-23 01:35:46,201 geoprocessing.zonal_statistics(1129) DEBUG <osgeo.gdal.Dataset; proxy of <Swig Object of type 'GDALDatasetShadow *' at 0x0FDD8518> >
+2020-08-23 01:35:46,233 geoprocessing.align_and_resize_raster_stack(752) INFO 1 of 1 aligned: clipped_rasterrfesj1x2.tif
+2020-08-23 01:35:46,234 geoprocessing.align_and_resize_raster_stack(754) INFO aligned all 1 rasters.
+2020-08-23 01:35:46,239 geoprocessing.zonal_statistics(1189) INFO build a lookup of aggregate field value to FID
+2020-08-23 01:35:46,240 geoprocessing.zonal_statistics(1196) INFO creating disjoint polygon set
+2020-08-23 01:35:46,248 geoprocessing.calculate_disjoint_polygon_set(2082) INFO build shapely polygon list
+2020-08-23 01:35:46,254 geoprocessing.calculate_disjoint_polygon_set(2096) INFO build shapely rtree index
+2020-08-23 01:35:46,271 geoprocessing.calculate_disjoint_polygon_set(2111) INFO poly feature lookup 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,273 geoprocessing.calculate_disjoint_polygon_set(2113) INFO build poly intersection lookup
+2020-08-23 01:35:46,285 geoprocessing.calculate_disjoint_polygon_set(2137) INFO poly intersection feature lookup 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,286 geoprocessing.calculate_disjoint_polygon_set(2171) INFO maximal subset build 100.0% complete on reprojected_aoi.gpkg
+2020-08-23 01:35:46,303 geoprocessing.zonal_statistics(1219) INFO processing 4 disjoint polygon sets
+2020-08-23 01:35:46,305 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 1 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,306 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 1 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,313 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 1 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,317 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 2 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,318 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 2 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,320 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 2 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,322 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 3 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,323 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 3 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,325 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 3 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,327 geoprocessing.zonal_statistics(1253) INFO disjoint polygon set 4 of 4 100.0% processed on reprojected_aoi.gpkg
+2020-08-23 01:35:46,329 geoprocessing.zonal_statistics(1261) INFO rasterizing disjoint polygon set 4 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,331 geoprocessing.zonal_statistics(1279) INFO summarizing rasterized disjoint polygon set 4 of 4 reprojected_aoi.gpkg
+2020-08-23 01:35:46,333 geoprocessing.zonal_statistics(1322) DEBUG unset_fids: 0 of 8 
+2020-08-23 01:35:46,337 geoprocessing.zonal_statistics(1325) DEBUG gt [ 9.5447140e+06  4.6622726e+02  0.0000000e+00  2.7088190e+06
+  0.0000000e+00 -4.5389456e+02] for ('C:\\Users\\RAKSHIT\\Documents\\urban_flood_risk_mitigation_workspace\\Runoff_retention_m3.tif', 1)
+2020-08-23 01:35:46,338 geoprocessing.zonal_statistics(1399) DEBUG remaining unset_fids: 0 of 8 
+2020-08-23 01:35:46,338 geoprocessing.zonal_statistics(1407) INFO all done processing polygon sets for reprojected_aoi.gpkg
+2020-08-23 01:35:46,382 urban_flood_risk_mitigation._write_summary_vector(472) DEBUG creating layer flood_risk_service
+2020-08-23 01:35:46,430 model._logged_target(1638) INFO Execution finished
+2020-08-23 01:35:46,432 utils.prepare_workspace(117) INFO Elapsed time: 1.2s

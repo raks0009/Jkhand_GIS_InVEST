@@ -1,0 +1,12 @@
+﻿id,path,type
+seaports,world_seaports.shp,point_count
+airports,world_airports.shp,point_nearest_distance
+roadway,roadway.shp,line_intersect_length
+railstatns,railstatn.shp,point_nearest_distance
+taxi,taxi.shp,point_nearest_distance
+tramstop,tram_stop.shp,point_nearest_distance
+railhalt,railhalt.shp,point_nearest_distance
+ferry,ferrystop.shp,point_nearest_distance
+busstop,bus_stop.shp,point_nearest_distance
+busstatn,bus_statn.shp,point_nearest_distance
+railroad,railroad.shp,line_intersect_length

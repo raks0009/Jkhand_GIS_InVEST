@@ -1,0 +1,93 @@
+2020-08-22 02:27:58,593 utils.prepare_workspace(111) INFO Writing log messages to C:\Users\RAKSHIT\Documents\recmodel_client_workspace\InVEST-Recreation-Model-log-2020-08-22--02_27_58.txt
+2020-08-22 02:27:58,601 model._logged_target(1629) Level 100 Starting model with parameters: 
+Arguments for InVEST natcap.invest.recreation.recmodel_client 3.8.7:
+aoi_path                      D:/Work/GIS Wetland/InVEST_process/Saraikela Kharsawan/Chandil/aoi.shp
+compute_regression            True
+end_year                      2017
+grid_aoi                      False
+n_workers                     -1
+predictor_table_path          D:/Work/GIS Wetland/InVEST_process/non-aoi Input/Recreation_Predictor.csv
+results_suffix                
+scenario_predictor_table_path 
+start_year                    2005
+workspace_dir                 C:\Users\RAKSHIT\Documents\recmodel_client_workspace
+
+2020-08-22 02:27:59,180 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:27:59,225 recmodel_client._retrieve_photo_user_days(456) INFO Contacting server, please wait.
+2020-08-22 02:27:59,985 recmodel_client._retrieve_photo_user_days(459) INFO Server online, version: 3.7.0.post141+hc694373c56a9.d20190708:./recserver_cache_py36/76e890d2cf86640e_fast_hash.pickle
+2020-08-22 02:28:00,245 recmodel_client._retrieve_photo_user_days(467) INFO Server supports year queries between 2005 and 2017
+2020-08-22 02:28:00,246 recmodel_client._retrieve_photo_user_days(486) INFO archiving C:\Users\RAKSHIT\Documents\recmodel_client_workspace\intermediate\aoi.prj
+2020-08-22 02:28:00,248 recmodel_client._retrieve_photo_user_days(486) INFO archiving C:\Users\RAKSHIT\Documents\recmodel_client_workspace\intermediate\aoi.shp
+2020-08-22 02:28:00,250 recmodel_client._retrieve_photo_user_days(486) INFO archiving C:\Users\RAKSHIT\Documents\recmodel_client_workspace\intermediate\aoi.shx
+2020-08-22 02:28:00,251 recmodel_client._retrieve_photo_user_days(486) INFO archiving C:\Users\RAKSHIT\Documents\recmodel_client_workspace\intermediate\aoi.dbf
+2020-08-22 02:28:00,264 recmodel_client._retrieve_photo_user_days(494) INFO Please wait for server to calculate PUD...
+2020-08-22 02:28:00,952 recmodel_client._retrieve_photo_user_days(502) INFO received result, took 0.688289 seconds, workspace_id: e1f9a2b5-93fd-4660-a34b-69784c3e03d5
+2020-08-22 02:28:00,999 recmodel_client._retrieve_photo_user_days(519) INFO connection release
+2020-08-22 02:28:01,069 recmodel_client._schedule_predictor_data_processing(679) INFO Processing predictor datasets
+2020-08-22 02:28:01,079 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor seaports
+2020-08-22 02:28:01,614 recmodel_client._point_count(1082) INFO world_seaports.shp point count: 100.00% complete
+2020-08-22 02:28:01,651 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor airports
+2020-08-22 02:28:01,739 geos.callback(209) INFO Invalid Coordinate at or near point -inf -inf
+2020-08-22 02:28:02,798 recmodel_client._point_nearest_distance(1040) INFO world_airports.shp point distance: 100.00% complete
+2020-08-22 02:28:02,847 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor roadway
+2020-08-22 02:28:15,814 recmodel_client.<lambda>(988) INFO roadway.shp line intersect length: 0.00% complete
+2020-08-22 02:28:15,817 recmodel_client._line_intersect_length(998) INFO roadway.shp line intersect length: 100.00% complete
+2020-08-22 02:28:15,941 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor railstatns
+2020-08-22 02:28:16,701 recmodel_client._point_nearest_distance(1040) INFO railstatn.shp point distance: 100.00% complete
+2020-08-22 02:28:16,745 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor taxi
+2020-08-22 02:28:16,840 recmodel_client._point_nearest_distance(1040) INFO taxi.shp point distance: 100.00% complete
+2020-08-22 02:28:16,868 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor tramstop
+2020-08-22 02:28:16,914 recmodel_client._point_nearest_distance(1040) INFO tram_stop.shp point distance: 100.00% complete
+2020-08-22 02:28:16,938 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor railhalt
+2020-08-22 02:28:17,074 recmodel_client._point_nearest_distance(1040) INFO railhalt.shp point distance: 100.00% complete
+2020-08-22 02:28:17,100 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor ferry
+2020-08-22 02:28:17,178 recmodel_client._point_nearest_distance(1040) INFO ferrystop.shp point distance: 100.00% complete
+2020-08-22 02:28:17,201 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor busstop
+2020-08-22 02:28:18,977 recmodel_client._point_nearest_distance(1040) INFO bus_stop.shp point distance: 100.00% complete
+2020-08-22 02:28:19,054 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor busstatn
+2020-08-22 02:28:19,263 recmodel_client._point_nearest_distance(1040) INFO bus_statn.shp point distance: 100.00% complete
+2020-08-22 02:28:19,293 recmodel_client._schedule_predictor_data_processing(696) INFO Building predictor railroad
+2020-08-22 02:28:19,345 recmodel_client._line_intersect_length(998) INFO railroad.shp line intersect length: 100.00% complete
+2020-08-22 02:28:19,425 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,427 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,428 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,429 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,430 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,431 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,432 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,436 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,437 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,439 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,441 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,442 utils._log_gdal_errors(68) WARNING [errno 1] Value 355600182.05400002 of field Shape_Area of feature 0 not successfully written. Possibly due to too larger number with respect to field width
+2020-08-22 02:28:19,476 recmodel_client._build_regression(1222) INFO Computing regression
+2020-08-22 02:28:19,532 warnings._showwarnmsg(110) WARNING C:\InVEST_3.8.7_x86\invest-3-x86\natcap\invest\recreation\recmodel_client.py:1274: FutureWarning: `rcond` parameter will change to the default of machine precision times ``max(M, N)`` where M and N are the input matrix dimensions.
+To use the future default and silence this warning we advise to pass `rcond=None`, to keep using the old, explicitly pass `rcond=-1`.
+
+2020-08-22 02:28:19,534 recmodel_client._build_regression(1300) WARNING Linear model is under constrained with DOF=-11
+2020-08-22 02:28:19,535 recmodel_client._compute_and_summarize_regression(1174) INFO 
+******************************
+               estimate     stderr    t value
+(Intercept)  +2.256e-12 +nan +nan
+seaports     +0.000e+00 +nan +nan
+airports     +0.000e+00 +nan +nan
+roadway      +2.596e-08 +nan +nan
+railstatns   +0.000e+00 +nan +nan
+taxi         +3.069e-07 +nan +nan
+tramstop     +5.683e-07 +nan +nan
+railhalt     +4.716e-08 +nan +nan
+ferry        +5.307e-07 +nan +nan
+busstop      +1.568e-07 +nan +nan
+busstatn     +8.960e-08 +nan +nan
+railroad     +0.000e+00 +nan +nan
+---
+
+Residual standard error: nan on -11 degrees of freedom
+Multiple R-squared: 1.0000
+Adjusted R-squared: 1.0000
+SSres: 0.0000
+server id hash: 3.7.0.post141+hc694373c56a9.d20190708:./recserver_cache_py36/76e890d2cf86640e_fast_hash.pickle
+********************************
+
+2020-08-22 02:28:19,567 model._logged_target(1638) INFO Execution finished
+2020-08-22 02:28:19,569 utils.prepare_workspace(117) INFO Elapsed time: 20.98s
