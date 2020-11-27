@@ -6,7 +6,7 @@ correspondence: raks0009@gmail.com
 
 This work is used in the publication of "Impact of Negative Factors & Importance of Monitoring 
 Natural Wetland Ecosystems in Jharkhand" 
-available on : 
+available on : https://zenodo.org/record/4072324#.X8FUeGgzZhE
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except 
 in compliance with the License. You may obtain a copy of the License at
